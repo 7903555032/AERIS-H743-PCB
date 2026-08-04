@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "1a665a82-3089-4ec6-8b99-24fc21800141")
+	(uuid "834e6f16-40c1-4d09-8b2b-849d141336e0")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
@@ -4772,6 +4772,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 139.7) (xy 127 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c1cb12a-1b92-44e2-9621-a816fd7f5998")
+	)
+	(wire
+		(pts
 			(xy 129.54 133.35) (xy 129.54 135.89)
 		)
 		(stroke
@@ -4812,7 +4822,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 96.52) (xy 237.49 96.52)
+			(xy 228.6 96.52) (xy 251.46 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5012,6 +5022,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 157.48) (xy 134.62 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73c06b7e-9537-454d-9f34-38b7959d577c")
+	)
+	(wire
+		(pts
 			(xy 228.6 95.25) (xy 228.6 96.52)
 		)
 		(stroke
@@ -5072,6 +5092,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 157.48) (xy 134.62 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87aa90ce-c2e5-48d7-adc5-b31e2d3ba627")
+	)
+	(wire
+		(pts
 			(xy 134.62 41.91) (xy 134.62 43.18)
 		)
 		(stroke
@@ -5122,6 +5152,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 138.43) (xy 121.92 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e8c17bc-5aa0-4395-89ce-66b9102d5548")
+	)
+	(wire
+		(pts
 			(xy 115.57 113.03) (xy 115.57 109.22)
 		)
 		(stroke
@@ -5129,6 +5169,26 @@
 			(type default)
 		)
 		(uuid "9eee37a4-782d-4fc3-8c9a-ef0c22bcd25d")
+	)
+	(wire
+		(pts
+			(xy 127 139.7) (xy 127 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f340f90-4914-4eb5-b6af-c5c2228019a1")
+	)
+	(wire
+		(pts
+			(xy 212.09 71.12) (xy 214.63 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a03a86e0-5b53-4511-aa2d-7fbb0aad76dd")
 	)
 	(wire
 		(pts
@@ -5282,6 +5342,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 96.52) (xy 251.46 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ad1707-0434-422f-b463-2c732821d5bc")
+	)
+	(wire
+		(pts
 			(xy 129.54 135.89) (xy 134.62 135.89)
 		)
 		(stroke
@@ -5339,36 +5409,6 @@
 			(type default)
 		)
 		(uuid "fe88bb6e-5ee2-4f43-99ed-ef1a7ee1b15e")
-	)
-	(label "FB"
-		(at 121.92 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "70485cbb-5cbb-487a-8894-aa74a5892ff6")
-	)
-	(label "U10_VCC"
-		(at 212.09 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "83c00209-5668-4bb8-9d24-093782bad267")
-	)
-	(label "FB"
-		(at 237.49 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c2aca85c-c0fb-4eb9-a787-b075d91c0cc9")
 	)
 	(hierarchical_label "USB_DP"
 		(shape bidirectional)
@@ -5512,6 +5552,17 @@
 			(justify right)
 		)
 		(uuid "ad8f1ece-f9dd-4b7a-8a39-a634a1459df3")
+	)
+	(hierarchical_label "U10_VCC"
+		(shape output)
+		(at 214.63 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dcce92e8-ff35-4431-b856-f777240a188b")
 	)
 	(hierarchical_label "+3.3V"
 		(shape output)

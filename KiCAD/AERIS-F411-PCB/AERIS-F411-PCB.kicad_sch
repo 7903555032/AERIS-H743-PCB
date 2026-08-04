@@ -120,6 +120,16 @@
 				(justify right)
 			)
 		)
+		(pin "U10_VCC" output
+			(at 76.2 58.42 0)
+			(uuid "5926da45-142f-468b-ab8c-40a3d50eedb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "AERIS-F411-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9"
