@@ -5184,6 +5184,12 @@
 		(uuid "bd04190f-6264-4750-af65-bd110c2e7f2f")
 	)
 	(junction
+		(at 76.2 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd8a5057-9e8e-44fc-8ec6-1b8ead645add")
+	)
+	(junction
 		(at 78.74 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5383,7 +5389,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 99.06) (xy 76.2 111.76)
+			(xy 76.2 99.06) (xy 76.2 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5460,6 +5466,16 @@
 			(type default)
 		)
 		(uuid "29585797-1bc2-4949-b594-120dc6ab930a")
+	)
+	(wire
+		(pts
+			(xy 76.2 106.68) (xy 76.2 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29cb27ba-3548-4e4a-a784-52e6a4d1d3ef")
 	)
 	(wire
 		(pts
@@ -5733,16 +5749,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 118.11) (xy 66.04 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7975d3ce-58bf-4a0c-842a-6eba2206ba86")
-	)
-	(wire
-		(pts
 			(xy 55.88 163.83) (xy 55.88 167.64)
 		)
 		(stroke
@@ -5950,16 +5956,6 @@
 			(type default)
 		)
 		(uuid "a665421e-eb33-4b6f-9ae8-4e1b72dd8d45")
-	)
-	(wire
-		(pts
-			(xy 66.04 151.13) (xy 66.04 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a91c4075-eb92-4c14-ac9d-7fa2d5a5e774")
 	)
 	(wire
 		(pts
@@ -6579,84 +6575,6 @@
 			(project "AERIS-F411-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 66.04 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0370e4d9-41e7-4fdb-9015-e035271da34f")
-		(property "Reference" "#FLG02"
-			(at 66.04 116.205 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 66.04 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 66.04 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f1602756-6c0c-49b3-870b-d8ae2764e89d")
-		)
-		(instances
-			(project "AERIS-F411-PCB"
-				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -9350,6 +9268,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 76.2 106.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "721f3b3e-3da8-4e84-937c-c2028e66e694")
+		(property "Reference" "#FLG02"
+			(at 74.295 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 72.39 106.6799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 76.2 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8147cc6f-ec0d-4850-8d39-45f85f1a94a8")
+		)
+		(instances
+			(project "AERIS-F411-PCB"
+				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Fuse")
 		(at 95.25 97.79 90)
 		(unit 1)
@@ -10493,84 +10490,6 @@
 			(project "AERIS-F411-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 66.04 151.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9b643c2-3dbf-49cc-a1ff-b3b06cecef6b")
-		(property "Reference" "#FLG04"
-			(at 66.04 149.225 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 66.04 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 66.04 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "34f8b850-752d-468e-8a76-0b3651859f25")
-		)
-		(instances
-			(project "AERIS-F411-PCB"
-				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
-					(reference "#FLG04")
 					(unit 1)
 				)
 			)
