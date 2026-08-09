@@ -10,6 +10,42 @@
 		(rev "1")
 	)
 	(lib_symbols)
+	(no_connect
+		(at 76.2 64.77)
+		(uuid "0cc549af-2538-46fa-a8ac-bb5517663bac")
+	)
+	(no_connect
+		(at 62.23 25.4)
+		(uuid "2c7d4acc-d41e-4c69-97f9-91ff88b9e92e")
+	)
+	(no_connect
+		(at 25.4 34.29)
+		(uuid "30239f23-c447-4a43-b93a-733fff67bfc2")
+	)
+	(no_connect
+		(at 76.2 58.42)
+		(uuid "75fad683-c3a7-416b-9bf0-cac2c2245884")
+	)
+	(no_connect
+		(at 55.88 25.4)
+		(uuid "7b9ba367-cc6d-4ad2-9094-3568f773081d")
+	)
+	(no_connect
+		(at 76.2 43.18)
+		(uuid "9d7d8bc1-f4da-493b-ae02-cb6288c2d948")
+	)
+	(no_connect
+		(at 25.4 43.18)
+		(uuid "ab471b9c-8394-4d60-aefc-f711e9c005b8")
+	)
+	(no_connect
+		(at 76.2 34.29)
+		(uuid "bee4b656-2e68-4d25-af70-f59ca6e52f58")
+	)
+	(no_connect
+		(at 53.34 73.66)
+		(uuid "de5403a5-935f-4946-81e4-bbcf70f5f056")
+	)
 	(sheet
 		(at 25.4 25.4)
 		(size 50.8 48.26)
@@ -90,26 +126,6 @@
 				(justify left)
 			)
 		)
-		(pin "USB_DM" bidirectional
-			(at 25.4 55.88 180)
-			(uuid "cec9e2c5-6beb-44ad-a5a9-0e2fb7de7a17")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB_DP" bidirectional
-			(at 25.4 63.5 180)
-			(uuid "92b78ff9-8b60-4a50-a90a-84264d06ed41")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "VIN" output
 			(at 76.2 64.77 0)
 			(uuid "abc28511-61ad-4460-9d39-f730e7e28d45")
@@ -123,6 +139,36 @@
 		(pin "U10_VCC" output
 			(at 76.2 58.42 0)
 			(uuid "5926da45-142f-468b-ab8c-40a3d50eedb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3.3V_SENSOR" output
+			(at 53.34 73.66 270)
+			(uuid "ea347636-3193-42a6-9576-dbf8aa6a23ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_FS_DM" bidirectional
+			(at 62.23 25.4 90)
+			(uuid "066c9d79-9f2e-4997-8311-2fe51614d93c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_FS_DP" bidirectional
+			(at 55.88 25.4 90)
+			(uuid "6f8985aa-163f-4fcb-ba95-b3ba09ba94ab")
 			(effects
 				(font
 					(size 1.27 1.27)
