@@ -15,7 +15,7 @@
 		(uuid "0cc549af-2538-46fa-a8ac-bb5517663bac")
 	)
 	(no_connect
-		(at 62.23 25.4)
+		(at 25.4 63.5)
 		(uuid "2c7d4acc-d41e-4c69-97f9-91ff88b9e92e")
 	)
 	(no_connect
@@ -27,7 +27,7 @@
 		(uuid "75fad683-c3a7-416b-9bf0-cac2c2245884")
 	)
 	(no_connect
-		(at 55.88 25.4)
+		(at 25.4 53.34)
 		(uuid "7b9ba367-cc6d-4ad2-9094-3568f773081d")
 	)
 	(no_connect
@@ -157,29 +157,75 @@
 			)
 		)
 		(pin "USB_FS_DM" bidirectional
-			(at 62.23 25.4 90)
+			(at 25.4 63.5 180)
 			(uuid "066c9d79-9f2e-4997-8311-2fe51614d93c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "USB_FS_DP" bidirectional
-			(at 55.88 25.4 90)
+			(at 25.4 53.34 180)
 			(uuid "6f8985aa-163f-4fcb-ba95-b3ba09ba94ab")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
 			(project "AERIS-F411-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 71.12)
+		(size 63.5 120.65)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "baf5a174-d476-465e-a73b-c952391d3950")
+		(property "Sheetname" "MCU_Core"
+			(at 110.49 70.4084 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_Core.kicad_sch"
+			(at 110.49 192.3546 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AERIS-F411-PCB"
+				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9"
+					(page "3")
 				)
 			)
 		)

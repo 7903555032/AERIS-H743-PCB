@@ -4,4 +4,6 @@
 	(lib (name "TPS563201DDCR") (type "KiCad") (uri "C:/Projects/PCB_Design/KiCad_Projects/AERIS-F411/Libraries/Symbols/TPS563201DDCR.kicad_sym") (options "") (descr ""))
 	(lib (name "USBLC6-2SC6") (type "KiCad") (uri "C:/Projects/PCB_Design/KiCad_Projects/AERIS-F411/Libraries/Symbols/USBLC6-2SC6.kicad_sym") (options "") (descr ""))
 	(lib (name "XT30PW-M") (type "KiCad") (uri "C:/Projects/PCB_Design/KiCad_Projects/AERIS-F411/Libraries/Symbols/XT30PW-M.kicad_sym") (options "") (descr ""))
+	(lib (name "SMBJ12A") (type "KiCad") (uri "C:/Projects/PCB_Design/KiCad_Projects/AERIS-F411/Libraries/Symbols/SMBJ12A.kicad_sym") (options "") (descr ""))
+	(lib (name "B0530W") (type "KiCad") (uri "C:/Projects/PCB_Design/KiCad_Projects/AERIS-F411/Libraries/Symbols/B0530W.kicad_sym") (options "") (descr ""))
 )

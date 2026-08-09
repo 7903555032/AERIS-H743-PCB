@@ -648,7 +648,7 @@
         "uuid": "41f25c5f-e761-4f33-a9f5-6d8db67ffdd9"
       }
     ],
-    "used_designators": "U9b1,C5d1,#PWR4,#PWR8,#PWR15-16,#PWR21-22,C5a1,C5b1,C5c1,U9a1",
+    "used_designators": "U9b1,C5d1,#PWR4,#PWR8,#PWR15-16,#PWR21-22,C5a1,#FLG1-4,C5b1,C5c1,U9a1,U9A1,U9B1",
     "variants": []
   },
   "sheets": [
@@ -659,6 +659,10 @@
     [
       "0e6091cd-36a8-495e-bc03-729bcaf76ce2",
       "POWER SECTION"
+    ],
+    [
+      "baf5a174-d476-465e-a73b-c952391d3950",
+      "MCU_Core"
     ]
   ],
   "text_variables": {},
