@@ -15,6 +15,10 @@
 		(uuid "0cc549af-2538-46fa-a8ac-bb5517663bac")
 	)
 	(no_connect
+		(at 173.99 147.32)
+		(uuid "1b89bc7a-008c-4fa0-9403-bc012572f5ab")
+	)
+	(no_connect
 		(at 25.4 63.5)
 		(uuid "2c7d4acc-d41e-4c69-97f9-91ff88b9e92e")
 	)
@@ -220,6 +224,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "3.3V" input
+			(at 173.99 147.32 0)
+			(uuid "6f24ba59-66f2-44a8-8f3b-027aef885ce3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
