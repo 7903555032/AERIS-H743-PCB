@@ -648,7 +648,7 @@
         "uuid": "41f25c5f-e761-4f33-a9f5-6d8db67ffdd9"
       }
     ],
-    "used_designators": "#PWR22-28,#FLG4-6",
+    "used_designators": "C19,C25-26,R10-16,#PWR29-31",
     "variants": []
   },
   "sheets": [
@@ -663,6 +663,10 @@
     [
       "baf5a174-d476-465e-a73b-c952391d3950",
       "MCU_Core"
+    ],
+    [
+      "f01385d2-11fb-4f45-b9f3-8008279d6804",
+      "Memory and Storage"
     ]
   ],
   "text_variables": {},

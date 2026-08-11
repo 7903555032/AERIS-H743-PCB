@@ -6256,7 +6256,7 @@
 		)
 		(uuid "eb68cfda-b668-425e-a5f8-8a0917adf3f1")
 	)
-	(hierarchical_label "3.3V"
+	(hierarchical_label "+3.3V"
 		(shape input)
 		(at 124.46 138.43 0)
 		(effects
@@ -6267,7 +6267,7 @@
 		)
 		(uuid "4652797c-3773-43e5-bd5a-5058c0bf2956")
 	)
-	(hierarchical_label "3.3V"
+	(hierarchical_label "+3.3V"
 		(shape input)
 		(at 250.19 35.56 180)
 		(effects
@@ -6278,7 +6278,7 @@
 		)
 		(uuid "a5b8233a-3000-47e5-8a86-de87f6829812")
 	)
-	(hierarchical_label "3.3V"
+	(hierarchical_label "+3.3V"
 		(shape input)
 		(at 58.42 90.17 180)
 		(effects

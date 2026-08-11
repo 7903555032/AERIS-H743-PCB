@@ -10,13 +10,15 @@
 		(rev "1")
 	)
 	(lib_symbols)
+	(junction
+		(at 96.52 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f51f618-19ab-4916-80b9-d7df1c3560cc")
+	)
 	(no_connect
 		(at 76.2 64.77)
 		(uuid "0cc549af-2538-46fa-a8ac-bb5517663bac")
-	)
-	(no_connect
-		(at 173.99 147.32)
-		(uuid "1b89bc7a-008c-4fa0-9403-bc012572f5ab")
 	)
 	(no_connect
 		(at 25.4 63.5)
@@ -27,28 +29,112 @@
 		(uuid "30239f23-c447-4a43-b93a-733fff67bfc2")
 	)
 	(no_connect
+		(at 135.89 25.4)
+		(uuid "4803d730-1f57-4245-958f-4cb520679620")
+	)
+	(no_connect
+		(at 157.48 58.42)
+		(uuid "5b2f70f5-8e84-4b01-8b15-95c578b9b37c")
+	)
+	(no_connect
+		(at 128.27 25.4)
+		(uuid "6787fde7-c317-431d-8e4a-c7ae9f0f7fd6")
+	)
+	(no_connect
+		(at 144.78 25.4)
+		(uuid "6c2dab98-d609-4742-9766-403f780ac984")
+	)
+	(no_connect
+		(at 121.92 58.42)
+		(uuid "72967574-5499-45ca-a1e5-192bbd77d5d0")
+	)
+	(no_connect
 		(at 76.2 58.42)
 		(uuid "75fad683-c3a7-416b-9bf0-cac2c2245884")
+	)
+	(no_connect
+		(at 144.78 58.42)
+		(uuid "78debfa6-ba17-46ac-bf48-8de97ed26bee")
+	)
+	(no_connect
+		(at 137.16 58.42)
+		(uuid "799ca28e-b1c2-4640-bd00-4a4cb344a800")
 	)
 	(no_connect
 		(at 25.4 53.34)
 		(uuid "7b9ba367-cc6d-4ad2-9094-3568f773081d")
 	)
 	(no_connect
+		(at 157.48 25.4)
+		(uuid "9944e971-5f19-488a-a057-37daa4ae87a3")
+	)
+	(no_connect
 		(at 76.2 43.18)
 		(uuid "9d7d8bc1-f4da-493b-ae02-cb6288c2d948")
+	)
+	(no_connect
+		(at 151.13 25.4)
+		(uuid "9e05dc4b-0c98-4a99-a1ed-82fef980fde4")
 	)
 	(no_connect
 		(at 25.4 43.18)
 		(uuid "ab471b9c-8394-4d60-aefc-f711e9c005b8")
 	)
 	(no_connect
-		(at 76.2 34.29)
-		(uuid "bee4b656-2e68-4d25-af70-f59ca6e52f58")
+		(at 120.65 25.4)
+		(uuid "c1c1f546-4373-4146-8c28-b20e9c744aa5")
+	)
+	(no_connect
+		(at 129.54 58.42)
+		(uuid "d666afe2-6499-4e92-b68d-93387a9742b9")
 	)
 	(no_connect
 		(at 53.34 73.66)
 		(uuid "de5403a5-935f-4946-81e4-bbcf70f5f056")
+	)
+	(no_connect
+		(at 151.13 58.42)
+		(uuid "ff7cd0ce-6ed6-4827-a54d-ee039e6d13ec")
+	)
+	(wire
+		(pts
+			(xy 96.52 34.29) (xy 96.52 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22cbc457-b542-4304-851e-6d56f4904bac")
+	)
+	(wire
+		(pts
+			(xy 96.52 80.01) (xy 110.49 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2415b174-cf2a-4745-9158-7ec6ef6d55d6")
+	)
+	(wire
+		(pts
+			(xy 96.52 34.29) (xy 110.49 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2db2f7e-785d-424e-946e-48ae6337ebbe")
+	)
+	(wire
+		(pts
+			(xy 76.2 34.29) (xy 96.52 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f01062d4-ba1a-493d-bdbc-05deaeaf9ce7")
 	)
 	(sheet
 		(at 25.4 25.4)
@@ -226,9 +312,185 @@
 				(justify left top)
 			)
 		)
-		(pin "3.3V" input
-			(at 173.99 147.32 0)
-			(uuid "6f24ba59-66f2-44a8-8f3b-027aef885ce3")
+		(pin "+3.3V" input
+			(at 110.49 80.01 180)
+			(uuid "e6969bb0-8419-47f5-a7c1-cd5c0ce69947")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "AERIS-F411-PCB"
+				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 25.4)
+		(size 52.07 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f01385d2-11fb-4f45-b9f3-8008279d6804")
+		(property "Sheetname" "Memory and Storage"
+			(at 110.49 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Memory&Storage.kicad_sch"
+			(at 110.49 59.0046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3V3" input
+			(at 110.49 34.29 180)
+			(uuid "49c86463-3af3-45b0-a8f5-da16e5693935")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "QSPI_CLK" input
+			(at 121.92 58.42 270)
+			(uuid "0e8ea129-984e-4c6b-816f-7be2bc265d86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "QSPI_IO0" bidirectional
+			(at 129.54 58.42 270)
+			(uuid "69fd9fcf-0ade-46b0-b177-5c3450d465f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "QSPI_IO1" bidirectional
+			(at 137.16 58.42 270)
+			(uuid "6618b19b-89ac-4188-92b9-203c6ba9e9e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "QSPI_IO2" bidirectional
+			(at 144.78 58.42 270)
+			(uuid "3f69534f-e216-4af9-8dfe-b50edf4a3e80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "QSPI_IO3" bidirectional
+			(at 151.13 58.42 270)
+			(uuid "c60bc62c-09f6-49b0-97bc-3467c8850eeb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "QSPI_NCS" input
+			(at 157.48 58.42 270)
+			(uuid "a2f4f5fa-a18e-4632-872f-c08ace0ccff5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDMMC_CLK" input
+			(at 120.65 25.4 90)
+			(uuid "20d6a9cc-20ec-4fa3-bc67-8d4e439dbf4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDMMC_CMD" bidirectional
+			(at 128.27 25.4 90)
+			(uuid "ad75c574-6a4e-4711-8937-b29835bf20f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDMMC_D0" bidirectional
+			(at 135.89 25.4 90)
+			(uuid "8fd927db-b954-483b-96fc-f6a179abcecd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDMMC_D1" bidirectional
+			(at 144.78 25.4 90)
+			(uuid "da4fd073-a1a9-4525-a80f-405b23a88711")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDMMC_D2" bidirectional
+			(at 151.13 25.4 90)
+			(uuid "b7e5a8ec-5001-475e-9c06-dca6e3d5b8af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDMMC_D3" bidirectional
+			(at 157.48 25.4 90)
+			(uuid "eb865421-5c0e-45c8-9fe6-bf7c60196cd5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -239,7 +501,7 @@
 		(instances
 			(project "AERIS-F411-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9"
-					(page "3")
+					(page "4")
 				)
 			)
 		)
