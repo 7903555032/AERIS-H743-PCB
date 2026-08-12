@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "AERIS-F411-PCB.kicad_pro",
+    "filename": "AERIS-H743-PCB.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -651,18 +651,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "AERIS-F411-PCB.kicad_sch",
-        "name": "AERIS-F411-PCB",
+        "filename": "AERIS-H743-PCB.kicad_sch",
+        "name": "AERIS-H743-PCB",
         "uuid": "41f25c5f-e761-4f33-a9f5-6d8db67ffdd9"
       }
     ],
-    "used_designators": "C19,C25-26,R10-16,#PWR29-31",
+    "used_designators": "C27-30,R17-19,#PWR32-38,BT1",
     "variants": []
   },
   "sheets": [
     [
       "41f25c5f-e761-4f33-a9f5-6d8db67ffdd9",
-      "AERIS-F411-PCB"
+      "AERIS-H743-PCB"
     ],
     [
       "0e6091cd-36a8-495e-bc03-729bcaf76ce2",
@@ -675,6 +675,10 @@
     [
       "f01385d2-11fb-4f45-b9f3-8008279d6804",
       "Memory and Storage"
+    ],
+    [
+      "323ebd1b-1767-457a-bcd0-67981f52dd8e",
+      "SENSORS"
     ]
   ],
   "text_variables": {},

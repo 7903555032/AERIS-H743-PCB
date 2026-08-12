@@ -11,10 +11,22 @@
 	)
 	(lib_symbols)
 	(junction
-		(at 96.52 34.29)
+		(at 17.78 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1f51f618-19ab-4916-80b9-d7df1c3560cc")
+		(uuid "23f8db66-faf7-425b-817d-487fdbf624a8")
+	)
+	(junction
+		(at 19.05 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c1c2977-3041-4f54-b333-2ace4d15d868")
+	)
+	(junction
+		(at 104.14 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8324ff85-5888-44f0-bdba-834824ffc96b")
 	)
 	(no_connect
 		(at 76.2 64.77)
@@ -23,10 +35,6 @@
 	(no_connect
 		(at 25.4 63.5)
 		(uuid "2c7d4acc-d41e-4c69-97f9-91ff88b9e92e")
-	)
-	(no_connect
-		(at 25.4 34.29)
-		(uuid "30239f23-c447-4a43-b93a-733fff67bfc2")
 	)
 	(no_connect
 		(at 135.89 25.4)
@@ -77,10 +85,6 @@
 		(uuid "9e05dc4b-0c98-4a99-a1ed-82fef980fde4")
 	)
 	(no_connect
-		(at 25.4 43.18)
-		(uuid "ab471b9c-8394-4d60-aefc-f711e9c005b8")
-	)
-	(no_connect
 		(at 120.65 25.4)
 		(uuid "c1c1f546-4373-4146-8c28-b20e9c744aa5")
 	)
@@ -89,52 +93,248 @@
 		(uuid "d666afe2-6499-4e92-b68d-93387a9742b9")
 	)
 	(no_connect
-		(at 53.34 73.66)
-		(uuid "de5403a5-935f-4946-81e4-bbcf70f5f056")
-	)
-	(no_connect
 		(at 151.13 58.42)
 		(uuid "ff7cd0ce-6ed6-4827-a54d-ee039e6d13ec")
 	)
 	(wire
 		(pts
-			(xy 96.52 34.29) (xy 96.52 74.93)
+			(xy 104.14 71.12) (xy 104.14 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "22cbc457-b542-4304-851e-6d56f4904bac")
+		(uuid "0ad13c10-b1b5-4a09-85bd-241f220dc4e3")
 	)
 	(wire
 		(pts
-			(xy 96.52 74.93) (xy 110.49 74.93)
+			(xy 38.1 91.44) (xy 38.1 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2415b174-cf2a-4745-9158-7ec6ef6d55d6")
+		(uuid "0f3659f7-b22b-4db6-90b1-af822f66c056")
 	)
 	(wire
 		(pts
-			(xy 96.52 34.29) (xy 110.49 34.29)
+			(xy 38.1 85.09) (xy 19.05 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2db2f7e-785d-424e-946e-48ae6337ebbe")
+		(uuid "1c2e1e7a-0c80-4b82-98e3-de2911fbc9c0")
 	)
 	(wire
 		(pts
-			(xy 76.2 34.29) (xy 96.52 34.29)
+			(xy 53.34 73.66) (xy 53.34 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f9300fa-0d65-4abe-9f4e-e8991e30fbbf")
+	)
+	(wire
+		(pts
+			(xy 106.68 121.92) (xy 60.96 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23bf937d-fded-4737-8abc-795821359a01")
+	)
+	(wire
+		(pts
+			(xy 17.78 36.83) (xy 17.78 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3def975f-8685-463d-9f37-7ef6a3846d16")
+	)
+	(wire
+		(pts
+			(xy 106.68 158.75) (xy 15.24 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45841719-7fb3-44c1-8d76-a47ce306f536")
+	)
+	(wire
+		(pts
+			(xy 104.14 34.29) (xy 110.49 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48a378f4-1e66-4ea5-8f13-6f1c3cd46e89")
+	)
+	(wire
+		(pts
+			(xy 106.68 71.12) (xy 104.14 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "490ceb86-0b4b-47e6-aa04-5a7f833707f9")
+	)
+	(wire
+		(pts
+			(xy 17.78 152.4) (xy 17.78 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "688e5f25-9d2f-4650-b9d1-e23ac807f190")
+	)
+	(wire
+		(pts
+			(xy 60.96 127) (xy 106.68 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73291b32-77ef-4dfe-a07d-92e3314aca06")
+	)
+	(wire
+		(pts
+			(xy 52.07 82.55) (xy 53.34 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7715d9df-5fcd-4fbd-b281-081f6821e692")
+	)
+	(wire
+		(pts
+			(xy 19.05 44.45) (xy 25.4 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f92b214-29d9-469d-bb0c-663a5a543cf1")
+	)
+	(wire
+		(pts
+			(xy 106.68 152.4) (xy 17.78 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f918eef-b28b-4654-8d4c-7959ecca8765")
+	)
+	(wire
+		(pts
+			(xy 15.24 85.09) (xy 19.05 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e81fd9-c4e1-42be-b83e-833634bc0505")
+	)
+	(wire
+		(pts
+			(xy 52.07 82.55) (xy 52.07 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3f22f9a-0a51-459f-a137-5af7120a4071")
+	)
+	(wire
+		(pts
+			(xy 60.96 137.16) (xy 106.68 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b370edf1-dd6e-4f59-a8e1-aa0bed6d22c9")
+	)
+	(wire
+		(pts
+			(xy 60.96 132.08) (xy 106.68 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5a1fcb1-e945-4b04-8a3a-430b542d5745")
+	)
+	(wire
+		(pts
+			(xy 25.4 36.83) (xy 17.78 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9dfed33-98ff-4a2b-bea8-68ef431c2607")
+	)
+	(wire
+		(pts
+			(xy 29.21 86.36) (xy 29.21 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbd3bb93-0047-4da5-80e4-9d4564ccd632")
+	)
+	(wire
+		(pts
+			(xy 15.24 158.75) (xy 15.24 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d39f8652-7293-4dd3-ae99-9f615ca82331")
+	)
+	(wire
+		(pts
+			(xy 76.2 34.29) (xy 104.14 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f01062d4-ba1a-493d-bdbc-05deaeaf9ce7")
+	)
+	(wire
+		(pts
+			(xy 19.05 85.09) (xy 19.05 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1a4f845-529e-4eae-a9b6-e8e104f8414c")
+	)
+	(wire
+		(pts
+			(xy 17.78 86.36) (xy 29.21 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f702eb22-1d65-4cfd-b154-4995a06f5ad5")
 	)
 	(sheet
 		(at 25.4 25.4)
@@ -176,7 +376,7 @@
 				(justify left top)
 			)
 		)
-		(pin "+3.3V" output
+		(pin "+3V3" output
 			(at 76.2 34.29 0)
 			(uuid "c3aa7c82-ac5e-401b-8251-3099813c3f5b")
 			(effects
@@ -197,7 +397,7 @@
 			)
 		)
 		(pin "I2C1_SCL" bidirectional
-			(at 25.4 34.29 180)
+			(at 25.4 44.45 180)
 			(uuid "3343b09d-cb8a-4dc6-b25e-c99708e948e1")
 			(effects
 				(font
@@ -207,7 +407,7 @@
 			)
 		)
 		(pin "I2C1_SDA" bidirectional
-			(at 25.4 43.18 180)
+			(at 25.4 36.83 180)
 			(uuid "b1f052af-5075-41cc-9019-b87ec9492515")
 			(effects
 				(font
@@ -236,7 +436,7 @@
 				(justify right)
 			)
 		)
-		(pin "+3.3V_SENSOR" output
+		(pin "+3V3_SENSOR" output
 			(at 53.34 73.66 270)
 			(uuid "ea347636-3193-42a6-9576-dbf8aa6a23ed")
 			(effects
@@ -267,7 +467,7 @@
 			)
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9"
 					(page "2")
 				)
@@ -275,8 +475,134 @@
 		)
 	)
 	(sheet
-		(at 110.49 71.12)
-		(size 63.5 120.65)
+		(at 20.32 91.44)
+		(size 40.64 46.99)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "323ebd1b-1767-457a-bcd0-67981f52dd8e")
+		(property "Sheetname" "SENSORS"
+			(at 20.32 90.7284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 20.32 139.0146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3V3_SENSOR" input
+			(at 52.07 91.44 90)
+			(uuid "3ff8a6e3-c41e-439a-a865-27ad1b5e518e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SCL" bidirectional
+			(at 38.1 91.44 90)
+			(uuid "cefdf43e-2c72-4f11-8c54-5ab7011fdce8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SDA" bidirectional
+			(at 29.21 91.44 90)
+			(uuid "cf58bb92-c4e2-4ae4-8111-d133d4243b74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMU_CS" input
+			(at 60.96 121.92 0)
+			(uuid "4c1392ff-bbb2-4872-af02-d35054761596")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMU_INT1" output
+			(at 60.96 109.22 0)
+			(uuid "2dff6d64-4045-410d-8c0e-861329031e3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMU_MISO" output
+			(at 60.96 137.16 0)
+			(uuid "0c62892b-90a8-44d4-a479-dff53adf5b4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMU_MOSI" input
+			(at 60.96 132.08 0)
+			(uuid "5d24f575-bf49-4737-b4d5-f0ab04f4e780")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMU_SCK" input
+			(at 60.96 127 0)
+			(uuid "e0bed437-b5bc-4a28-8491-75aa494147e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "AERIS-H743-PCB"
+				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 67.31)
+		(size 63.5 96.52)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -291,7 +617,7 @@
 		)
 		(uuid "baf5a174-d476-465e-a73b-c952391d3950")
 		(property "Sheetname" "MCU_Core"
-			(at 110.49 70.4084 0)
+			(at 106.68 66.5984 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(effects
@@ -302,7 +628,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU_Core.kicad_sch"
-			(at 110.49 192.3546 0)
+			(at 106.68 164.4146 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(effects
@@ -312,8 +638,8 @@
 				(justify left top)
 			)
 		)
-		(pin "+3.3V" input
-			(at 110.49 74.93 180)
+		(pin "+3V3" input
+			(at 106.68 71.12 180)
 			(uuid "e6969bb0-8419-47f5-a7c1-cd5c0ce69947")
 			(effects
 				(font
@@ -322,8 +648,68 @@
 				(justify left)
 			)
 		)
+		(pin "I2C1_SCL" bidirectional
+			(at 106.68 158.75 180)
+			(uuid "0e2527aa-fca2-4716-80b4-fc972d5ce06f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C1_SDA" bidirectional
+			(at 106.68 152.4 180)
+			(uuid "729f235f-fff3-4ca2-9ce0-e48ff80b321d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_MISO" input
+			(at 106.68 137.16 180)
+			(uuid "e557cf6e-063d-480d-842e-de9b0bd8f990")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_MOSI" output
+			(at 106.68 132.08 180)
+			(uuid "d5161a4a-0088-47f9-b2e8-c7f95c777d0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_SCK" output
+			(at 106.68 127 180)
+			(uuid "84b969dc-cfa6-4e21-a0ca-3799db2e29da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_NSS" output
+			(at 106.68 121.92 180)
+			(uuid "a13a7f74-8067-49cf-8656-3f5b81a2e4d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9"
 					(page "3")
 				)
@@ -499,7 +885,7 @@
 			)
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9"
 					(page "4")
 				)

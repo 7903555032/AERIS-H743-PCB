@@ -6451,7 +6451,7 @@
 		)
 		(uuid "ff7512bb-27f3-4990-b4da-e5ca75da3463")
 	)
-	(hierarchical_label "+3.3V_SENSOR"
+	(hierarchical_label "+3V3_SENSOR"
 		(shape output)
 		(at 68.58 153.67 0)
 		(effects
@@ -6506,7 +6506,7 @@
 		)
 		(uuid "35b9d77b-9ae9-4133-9287-7db68c110cb2")
 	)
-	(hierarchical_label "+3.3V"
+	(hierarchical_label "+3V3"
 		(shape output)
 		(at 69.85 121.92 0)
 		(effects
@@ -6594,7 +6594,7 @@
 		)
 		(uuid "dcce92e8-ff35-4431-b856-f777240a188b")
 	)
-	(hierarchical_label "+3.3V_SENSOR"
+	(hierarchical_label "+3V3_SENSOR"
 		(shape output)
 		(at 153.67 38.1 90)
 		(effects
@@ -6686,7 +6686,7 @@
 			(uuid "08baf7b6-1bed-4012-b2d6-5be1643a5c2e")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "C1")
 					(unit 1)
@@ -6785,7 +6785,7 @@
 			(uuid "9a33792d-a5b3-47ad-8b18-0373aab352df")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "U9B1")
 					(unit 1)
@@ -6876,7 +6876,7 @@
 			(uuid "3f0123e0-dae2-4e38-907b-de6f6fae8820")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "C5a1")
 					(unit 1)
@@ -7102,7 +7102,7 @@
 			(uuid "684b5e4b-c68c-4235-95e6-39b93313e8a9")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "D2")
 					(unit 1)
@@ -7192,7 +7192,7 @@
 			(uuid "e7a3885e-d2e1-4851-845a-37a1a2071bd6")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "R4")
 					(unit 1)
@@ -7270,7 +7270,7 @@
 			(uuid "4f0b05e1-6188-4de9-8d85-d8130dbdf886")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "#PWR017")
 					(unit 1)
@@ -7348,7 +7348,7 @@
 			(uuid "7518ec59-e89a-43ea-8db6-29c32f56fdd8")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "#PWR07")
 					(unit 1)
@@ -7443,7 +7443,7 @@
 			(uuid "9e352799-3681-4f8c-ba3f-6e5849eb7a77")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "Q1")
 					(unit 1)
@@ -7521,7 +7521,7 @@
 			(uuid "76f49bfc-af95-49c3-a881-6fbd25ed32c5")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "#PWR09")
 					(unit 1)
@@ -7599,7 +7599,7 @@
 			(uuid "97c78a52-7348-4aac-bd59-70eb0814acf9")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "#PWR012")
 					(unit 1)
@@ -7691,7 +7691,7 @@
 			(uuid "5a26cfe2-e18c-4557-b2af-53e5955b3799")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "R1")
 					(unit 1)
@@ -7790,7 +7790,7 @@
 			(uuid "199921b4-41bd-44d9-990f-23fa4569bfcf")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "U9A1")
 					(unit 1)
@@ -7868,7 +7868,7 @@
 			(uuid "73228989-a44d-4132-a918-16cb85c09de5")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "#PWR01")
 					(unit 1)
@@ -7984,7 +7984,7 @@
 			(uuid "02fa8d7b-7a54-4ad9-93ae-f6b0b0eb03a4")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "U10")
 					(unit 1)
@@ -8075,7 +8075,7 @@
 			(uuid "9d6e175b-6b90-4c26-a873-2c457158e66c")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "C5c1")
 					(unit 1)
@@ -8164,7 +8164,7 @@
 			(uuid "73097ffb-7bec-4b95-9a16-940178af66e6")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "C3")
 					(unit 1)
@@ -8242,7 +8242,7 @@
 			(uuid "3d40b394-4972-491b-aa24-9247cbceda5a")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "#PWR03")
 					(unit 1)
@@ -8490,7 +8490,7 @@
 			(uuid "4399de14-104d-40fd-87f7-e2a479f485f6")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "U1")
 					(unit 1)
@@ -8569,7 +8569,7 @@
 			(uuid "4a60d7e8-0a0f-4feb-9b2a-9beb50bac21a")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "#PWR015")
 					(unit 1)
@@ -8659,7 +8659,7 @@
 			(uuid "a8cc1623-6013-44b5-badd-02d28938c090")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "R2")
 					(unit 1)
@@ -8737,7 +8737,7 @@
 			(uuid "d167ab66-8226-41eb-bc9f-ad5f3f905288")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "#PWR08")
 					(unit 1)
@@ -8973,7 +8973,7 @@
 			(uuid "3cb25d89-a466-4c8c-9bf3-01bc9345a9c6")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "J1")
 					(unit 1)
@@ -9070,7 +9070,7 @@
 			(uuid "bbf0407b-ffbd-446b-942f-fb511c52219d")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "R26")
 					(unit 1)
@@ -9205,7 +9205,7 @@
 			(uuid "283b916c-3bd3-4837-87f3-651a19033936")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "J2")
 					(unit 1)
@@ -9284,7 +9284,7 @@
 			(uuid "9ba0b6ec-e970-4625-8c15-4fd908aafcd6")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "#PWR011")
 					(unit 1)
@@ -9373,7 +9373,7 @@
 			(uuid "cbc8cde3-db06-4ead-a122-9f1f7cbf13af")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "R6")
 					(unit 1)
@@ -9452,7 +9452,7 @@
 			(uuid "8147cc6f-ec0d-4850-8d39-45f85f1a94a8")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "#FLG02")
 					(unit 1)
@@ -9541,7 +9541,7 @@
 			(uuid "136218b3-3c47-4e31-bb41-b862b9ee1fc6")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "F1")
 					(unit 1)
@@ -9619,7 +9619,7 @@
 			(uuid "5a890af4-2374-4735-b246-c59b82bc458a")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "#PWR014")
 					(unit 1)
@@ -9698,7 +9698,7 @@
 			(uuid "783f0297-271b-4add-b67b-4a93fc01716a")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "#PWR010")
 					(unit 1)
@@ -9790,7 +9790,7 @@
 			(uuid "59533e81-195e-472e-94dd-d2f8eb82b5c6")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "C5b1")
 					(unit 1)
@@ -9868,7 +9868,7 @@
 			(uuid "eed40818-b83c-4b9a-931a-14a0e76138fb")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "#PWR02")
 					(unit 1)
@@ -9947,7 +9947,7 @@
 			(uuid "70454271-51eb-4bd0-9f32-c647e0cfa910")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "#PWR020")
 					(unit 1)
@@ -10037,7 +10037,7 @@
 			(uuid "8b874daa-aa29-4a67-94a5-5bb55a6b5ab6")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "R5")
 					(unit 1)
@@ -10115,7 +10115,7 @@
 			(uuid "cd43b22c-9912-4650-b48c-498978c9effc")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "#PWR013")
 					(unit 1)
@@ -10341,7 +10341,7 @@
 			(uuid "34faed85-e7cb-4957-a354-027988e71772")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "D1")
 					(unit 1)
@@ -10430,7 +10430,7 @@
 			(uuid "802dc96d-a3d2-46fc-9b93-4b28f9c77295")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "R7")
 					(unit 1)
@@ -10522,7 +10522,7 @@
 			(uuid "f077d274-00c8-453a-ab93-ad2fa3f7f101")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "C4")
 					(unit 1)
@@ -10601,7 +10601,7 @@
 			(uuid "8630b3a4-f563-41ab-8d8f-ddd09cebd990")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "#PWR05")
 					(unit 1)
@@ -10692,7 +10692,7 @@
 			(uuid "cc1a66fe-6e70-4876-981b-ae866b1a34ee")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "C5d1")
 					(unit 1)
@@ -10784,7 +10784,7 @@
 			(uuid "d3de5503-8c77-4e7d-826a-2a3aa1790f75")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "L1")
 					(unit 1)
@@ -10875,7 +10875,7 @@
 			(uuid "d0dc2ba4-7f3d-4719-b05d-7b49f6b707f4")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "C2")
 					(unit 1)
@@ -10954,7 +10954,7 @@
 			(uuid "6e45b8c4-ff64-4ed8-a034-ad05075392f2")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "#PWR019")
 					(unit 1)
@@ -11033,7 +11033,7 @@
 			(uuid "bf5329d3-7e61-4974-9e50-836b3f87a54a")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "#PWR06")
 					(unit 1)
@@ -11111,7 +11111,7 @@
 			(uuid "698a06bd-f728-4bda-b8f4-60725136a41e")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "#FLG01")
 					(unit 1)
@@ -11359,7 +11359,7 @@
 			(uuid "0a21a892-0927-42b3-8e70-e70cebd052fb")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "U2")
 					(unit 1)
@@ -11451,7 +11451,7 @@
 			(uuid "c0eabf10-1230-4dbd-a202-6539bc7a2fe4")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "R3")
 					(unit 1)
@@ -11541,7 +11541,7 @@
 			(uuid "55a0478f-0588-4c93-a7f5-b8e2209e799a")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "C7")
 					(unit 1)
@@ -11619,7 +11619,7 @@
 			(uuid "037c570a-be66-4969-b4d9-ca40760da829")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "#PWR018")
 					(unit 1)
@@ -11698,7 +11698,7 @@
 			(uuid "ea2ad8e2-947e-458b-8f2a-14d61c314e4c")
 		)
 		(instances
-			(project "AERIS-F411-PCB"
+			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "#FLG03")
 					(unit 1)
