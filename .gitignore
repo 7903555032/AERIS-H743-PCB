@@ -11,3 +11,12 @@ fp-info-cache
 *.gbrjob
 *.drl
 *.zip
+
+# KiCad lock files
+*.lck
+
+# KiCad local/project settings
+*.kicad_prl
+
+# KiCad history
+.history/
