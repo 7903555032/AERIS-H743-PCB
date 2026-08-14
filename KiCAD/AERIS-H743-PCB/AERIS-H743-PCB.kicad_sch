@@ -45,6 +45,10 @@
 		(uuid "5b2f70f5-8e84-4b01-8b15-95c578b9b37c")
 	)
 	(no_connect
+		(at 60.96 109.22)
+		(uuid "637bd9e1-098b-4722-9a44-aa8167b94919")
+	)
+	(no_connect
 		(at 128.27 25.4)
 		(uuid "6787fde7-c317-431d-8e4a-c7ae9f0f7fd6")
 	)

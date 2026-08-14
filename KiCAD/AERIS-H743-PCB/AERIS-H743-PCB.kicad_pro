@@ -511,6 +511,72 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "name": "CAN_Diff",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.15,
+        "name": "HighSpeed_SE",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "tuning_profile": "",
+        "via_diameter": 0.3,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.2,
+        "name": "Power_Battery",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.2,
+        "name": "Power_Reg",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.35,
+        "tuning_profile": "",
+        "via_diameter": 0.5,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.15,
+        "name": "Signal_Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "tuning_profile": "",
+        "via_diameter": 0.3,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.2,
+        "name": "USB_Diff",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -518,7 +584,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "USB_Diff",
+        "pattern": "USB_DM"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -656,7 +727,7 @@
         "uuid": "41f25c5f-e761-4f33-a9f5-6d8db67ffdd9"
       }
     ],
-    "used_designators": "C27-30,R17-19,#PWR32-38,BT1",
+    "used_designators": "C27-30,#FLG7,R17-19,#PWR32-38,BT1",
     "variants": []
   },
   "sheets": [
