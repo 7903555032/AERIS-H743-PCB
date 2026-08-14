@@ -727,7 +727,7 @@
         "uuid": "41f25c5f-e761-4f33-a9f5-6d8db67ffdd9"
       }
     ],
-    "used_designators": "C27-30,#FLG7,R17-19,#PWR32-38,BT1",
+    "used_designators": "C31-33,J8,R20-25,R27-32,D3-5,#PWR39-50",
     "variants": []
   },
   "sheets": [
@@ -750,6 +750,14 @@
     [
       "323ebd1b-1767-457a-bcd0-67981f52dd8e",
       "SENSORS"
+    ],
+    [
+      "de1edec3-3765-4a1b-9203-ce27ca014710",
+      "COMMUNICATION"
+    ],
+    [
+      "7473c309-741a-4ffe-891b-85f3a7585b02",
+      "Connectors and Indicators"
     ]
   ],
   "text_variables": {},
