@@ -5,7 +5,7 @@
 	(uuid "a85f44eb-5587-42aa-9a22-be93d0a3c42f")
 	(paper "A4")
 	(lib_symbols
-		(symbol "1040310811:1040310811"
+		(symbol "104031-0811_MOL:1040310811"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1133,6 +1133,12 @@
 		(uuid "db344e3c-a7d9-4875-b5be-54c815699b6a")
 	)
 	(junction
+		(at 198.12 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b112e52-eb27-47fa-af2a-9b3628f150bd")
+	)
+	(junction
 		(at 102.87 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1143,12 +1149,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f1a9b28-f3df-4dd4-ae30-c59accfb2792")
-	)
-	(junction
-		(at 198.12 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8af1e9f3-8206-47c0-8d7b-7c067d08b285")
 	)
 	(junction
 		(at 196.85 58.42)
@@ -1163,11 +1163,11 @@
 		(uuid "cd2c0613-00e6-46f6-8539-5c9fe4b1f19a")
 	)
 	(no_connect
-		(at 255.27 50.8)
+		(at 257.81 50.8)
 		(uuid "06867fa3-3f39-4055-b492-8f6f56031b26")
 	)
 	(no_connect
-		(at 255.27 53.34)
+		(at 257.81 53.34)
 		(uuid "169c0787-db97-4394-b9e9-e54a920a5527")
 	)
 	(wire
@@ -1202,7 +1202,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 60.96) (xy 199.39 60.96)
+			(xy 195.58 60.96) (xy 201.93 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1232,7 +1232,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 53.34) (xy 199.39 53.34)
+			(xy 195.58 53.34) (xy 201.93 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1312,7 +1312,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 60.96) (xy 261.62 60.96)
+			(xy 257.81 60.96) (xy 261.62 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1332,7 +1332,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 58.42) (xy 199.39 58.42)
+			(xy 198.12 58.42) (xy 201.93 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1342,7 +1342,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 55.88) (xy 199.39 55.88)
+			(xy 195.58 55.88) (xy 201.93 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1462,7 +1462,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 58.42) (xy 261.62 58.42)
+			(xy 257.81 58.42) (xy 261.62 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1582,7 +1582,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 50.8) (xy 199.39 50.8)
+			(xy 195.58 50.8) (xy 201.93 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1622,7 +1622,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 55.88) (xy 261.62 55.88)
+			(xy 257.81 55.88) (xy 261.62 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2644,6 +2644,242 @@
 		)
 	)
 	(symbol
+		(lib_id "104031-0811_MOL:1040310811")
+		(at 201.93 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81e8968c-4172-400e-a578-bcec608b1db9")
+		(property "Reference" "J4"
+			(at 229.87 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1040310811"
+			(at 229.87 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:104031-0811_MOL"
+			(at 201.93 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 (8 + 2) Position Card Connector Secure Digital - microSD™ Surface Mount, Right Angle Gold"
+			(at 201.93 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Molex"
+			(at 201.93 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 201.93 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 201.93 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/1040310811/Molex/view-part/?ref=eda"
+			(at 201.93 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 201.93 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/1040310811/Molex/view-part/?ref=snap"
+			(at 201.93 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "1040310811"
+			(at 201.93 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1004724&manufacturer=Molex&part_name=1040310811&search_term=microsd_hc_molex_104031"
+			(at 201.93 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MFR_NAME" "Molex Connector Corporation"
+			(at 201.93 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "1040310811"
+			(at 201.93 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purpose" ""
+			(at 201.93 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "10"
+			(uuid "80543010-f250-4e4e-ba42-c3da49f18bfe")
+		)
+		(pin "2"
+			(uuid "58945df4-d4da-4126-8bfd-6f7e487ecc91")
+		)
+		(pin "1"
+			(uuid "452dc8f8-3e8b-4a20-8b14-4791e87e2bea")
+		)
+		(pin "9"
+			(uuid "80e963f4-a661-48b0-ac7e-66c9794478de")
+		)
+		(pin "4"
+			(uuid "e62cc06e-7cce-472f-89ab-d070743af04b")
+		)
+		(pin "6"
+			(uuid "09828830-d9dc-4753-b9c0-6ba32ae780c9")
+		)
+		(pin "7"
+			(uuid "9e4f320a-43d9-4bed-85a0-5b4283632b9c")
+		)
+		(pin "8"
+			(uuid "7f29f72c-e74d-455b-862b-3436307177d6")
+		)
+		(pin "5"
+			(uuid "884c8a1a-1dc2-47db-b744-5cb0c8e817b2")
+		)
+		(pin "3"
+			(uuid "8afa136d-e2af-4688-a65e-978ea625457a")
+		)
+		(instances
+			(project "AERIS-H743-PCB"
+				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/f01385d2-11fb-4f45-b9f3-8008279d6804"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 74.93 158.75 0)
 		(unit 1)
@@ -3129,242 +3365,6 @@
 			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/f01385d2-11fb-4f45-b9f3-8008279d6804"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "1040310811:1040310811")
-		(at 199.39 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0c5eefe-c24c-4ed9-9ad4-fd0bee8960fd")
-		(property "Reference" "J4"
-			(at 227.33 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1040310811"
-			(at 227.33 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "1040310811:104031-0811_MOL"
-			(at 199.39 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10 (8 + 2) Position Card Connector Secure Digital - microSD™ Surface Mount, Right Angle Gold"
-			(at 199.39 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Molex"
-			(at 199.39 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "None"
-			(at 199.39 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 199.39 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/1040310811/Molex/view-part/?ref=eda"
-			(at 199.39 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 199.39 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/1040310811/Molex/view-part/?ref=snap"
-			(at 199.39 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "1040310811"
-			(at 199.39 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1004724&manufacturer=Molex&part_name=1040310811&search_term=microsd_hc_molex_104031"
-			(at 199.39 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MFR_NAME" "Molex Connector Corporation"
-			(at 199.39 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "1040310811"
-			(at 199.39 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Purpose" ""
-			(at 199.39 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "9"
-			(uuid "7c0b5f87-f33a-41b6-97c4-23da72e644ee")
-		)
-		(pin "10"
-			(uuid "b3d9402e-28ec-488b-9464-2b5830d9295f")
-		)
-		(pin "3"
-			(uuid "56b5fabd-0cad-4909-beb9-acd76ab475ab")
-		)
-		(pin "4"
-			(uuid "d2b2ccd5-bd6f-472f-bb19-ecdd90e97195")
-		)
-		(pin "6"
-			(uuid "f1cfd535-1ed5-4458-b19f-cc81f603f8e0")
-		)
-		(pin "8"
-			(uuid "d1647b85-39a6-4858-8ab7-b87fb74d7941")
-		)
-		(pin "1"
-			(uuid "8e205784-3a17-4bca-8b83-2d6c5284c27b")
-		)
-		(pin "5"
-			(uuid "cb2b0af5-e20d-4b14-b802-6ccd1cb6d72e")
-		)
-		(pin "7"
-			(uuid "496c02c9-93ce-430d-bee6-0685abe6498b")
-		)
-		(pin "2"
-			(uuid "62c11d5f-11bf-4fb7-b259-da60d27ed96f")
-		)
-		(instances
-			(project "AERIS-H743-PCB"
-				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/f01385d2-11fb-4f45-b9f3-8008279d6804"
-					(reference "J4")
 					(unit 1)
 				)
 			)

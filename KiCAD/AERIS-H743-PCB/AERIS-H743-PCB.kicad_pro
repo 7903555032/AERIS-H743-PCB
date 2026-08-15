@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 1.0,
+          "height": 1.508,
+          "width": 1.508
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -594,7 +594,7 @@
         "pattern": "+BATT"
       },
       {
-        "netclass": "Power_Battery",
+        "netclass": "Default",
         "pattern": "GND"
       },
       {
@@ -883,7 +883,7 @@
         "uuid": "41f25c5f-e761-4f33-a9f5-6d8db67ffdd9"
       }
     ],
-    "used_designators": "#PWR51-53",
+    "used_designators": "#FLG2,J8,R26,Y3,#PWR54-63",
     "variants": []
   },
   "sheets": [

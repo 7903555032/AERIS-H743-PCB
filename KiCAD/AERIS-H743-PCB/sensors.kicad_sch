@@ -1789,12 +1789,6 @@
 		(uuid "42ed321a-a802-4b63-9c56-da3609e21736")
 	)
 	(junction
-		(at 109.22 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69af5ef5-6812-4a09-9d64-8f1707abd58e")
-	)
-	(junction
 		(at 118.11 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1823,6 +1817,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbea2cc1-7419-4870-b64b-8054558b6579")
+	)
+	(junction
+		(at 90.17 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e84b6f6b-0c68-424e-9a52-70eaccd31bd9")
 	)
 	(junction
 		(at 198.12 118.11)
@@ -1950,16 +1950,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 111.76) (xy 109.22 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1978f9f6-638f-4136-b2b2-853e5ddae41a")
-	)
-	(wire
-		(pts
 			(xy 87.63 151.13) (xy 90.17 151.13)
 		)
 		(stroke
@@ -2007,6 +1997,16 @@
 			(type default)
 		)
 		(uuid "35cd3f40-be32-4d0b-9adb-c53e30fea82c")
+	)
+	(wire
+		(pts
+			(xy 90.17 111.76) (xy 92.71 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37c2c7e7-3ebb-4e3e-a596-ed322f3b3554")
 	)
 	(wire
 		(pts
@@ -2110,7 +2110,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 106.68) (xy 92.71 111.76)
+			(xy 90.17 105.41) (xy 90.17 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2140,7 +2140,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 123.19) (xy 113.03 123.19)
+			(xy 105.41 123.19) (xy 113.03 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2190,6 +2190,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 111.76) (xy 109.22 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79590e00-5f1e-42bd-a846-43d3e9a7b050")
+	)
+	(wire
+		(pts
 			(xy 105.41 138.43) (xy 113.03 138.43)
 		)
 		(stroke
@@ -2197,16 +2207,6 @@
 			(type default)
 		)
 		(uuid "7cc79b29-d673-419f-b6d5-6c579e333fc2")
-	)
-	(wire
-		(pts
-			(xy 105.41 123.19) (xy 109.22 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d5f47ca-34f0-456f-8a21-4fed2bb2fe4d")
 	)
 	(wire
 		(pts
@@ -2240,7 +2240,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 111.76) (xy 92.71 111.76)
+			(xy 87.63 111.76) (xy 90.17 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2458,16 +2458,6 @@
 		)
 		(uuid "fbd3a373-6a79-4521-80e9-205d21e85a30")
 	)
-	(wire
-		(pts
-			(xy 109.22 111.76) (xy 109.22 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbed040c-e374-45fc-b99d-4e034a215c0a")
-	)
 	(hierarchical_label "I2C1_SDA"
 		(shape bidirectional)
 		(at 113.03 133.35 0)
@@ -2646,7 +2636,7 @@
 	)
 	(hierarchical_label "+3V3_SENSOR"
 		(shape input)
-		(at 92.71 106.68 90)
+		(at 90.17 105.41 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3419,6 +3409,85 @@
 			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/323ebd1b-1767-457a-bcd0-67981f52dd8e"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 111.76 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "250e5957-56ff-44a3-b8f5-d86e90688fa1")
+		(property "Reference" "#PWR054"
+			(at 115.57 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 111.7599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f6acc88-a172-411f-8755-d71045799eab")
+		)
+		(instances
+			(project "AERIS-H743-PCB"
+				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/323ebd1b-1767-457a-bcd0-67981f52dd8e"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)

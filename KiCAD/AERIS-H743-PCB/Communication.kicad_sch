@@ -1556,12 +1556,6 @@
 		(uuid "1e3c1aa6-0759-4f3c-b7d1-c31191ada74f")
 	)
 	(junction
-		(at 93.98 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e301057-4617-435a-95a0-65cde13790e8")
-	)
-	(junction
 		(at 204.47 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2007,7 +2001,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 105.41) (xy 93.98 107.95)
+			(xy 93.98 105.41) (xy 93.98 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2054,16 +2048,6 @@
 			(type default)
 		)
 		(uuid "c4085cfa-25db-4843-ac64-ac0ccc87b977")
-	)
-	(wire
-		(pts
-			(xy 82.55 107.95) (xy 93.98 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5cb46b8-f58e-4aed-93f9-aba47542a475")
 	)
 	(wire
 		(pts
@@ -2144,16 +2128,6 @@
 			(type default)
 		)
 		(uuid "ebb25b2a-ff72-48f8-b722-7b3a8467cb79")
-	)
-	(wire
-		(pts
-			(xy 93.98 107.95) (xy 93.98 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec44c919-8885-4cf8-b664-bceac51a95d1")
 	)
 	(wire
 		(pts
@@ -2471,6 +2445,84 @@
 			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/de1edec3-3765-4a1b-9203-ce27ca014710"
 					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 82.55 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "317fd67c-99d5-4a15-8fce-041cb0b05243")
+		(property "Reference" "#PWR062"
+			(at 82.55 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38616610-a9fb-4a7b-80f2-a6b0032a3f43")
+		)
+		(instances
+			(project "AERIS-H743-PCB"
+				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/de1edec3-3765-4a1b-9203-ce27ca014710"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
