@@ -2479,7 +2479,7 @@
 		)
 		(uuid "03f556b3-22b9-4300-9642-8ccc2e5b57f8")
 	)
-	(hierarchical_label "IMU_MISO"
+	(hierarchical_label "SPI1_MISO"
 		(shape output)
 		(at 114.3 93.98 180)
 		(effects
@@ -2490,7 +2490,7 @@
 		)
 		(uuid "0b3082c6-b6c5-4a6b-b692-133bb0ab8d5c")
 	)
-	(hierarchical_label "IMU_MOSI"
+	(hierarchical_label "SPI1_MOSI"
 		(shape input)
 		(at 114.3 91.44 180)
 		(effects
@@ -2545,7 +2545,7 @@
 		)
 		(uuid "5aa10328-f256-4239-8bdf-e8141354787c")
 	)
-	(hierarchical_label "IMU_SCK"
+	(hierarchical_label "SPI1_SCK"
 		(shape input)
 		(at 114.3 88.9 180)
 		(effects
@@ -2567,7 +2567,7 @@
 		)
 		(uuid "a2949665-e251-4838-820a-eea4f44dd80e")
 	)
-	(hierarchical_label "IMU_CS"
+	(hierarchical_label "SPI1_NSS"
 		(shape input)
 		(at 114.3 86.36 180)
 		(effects

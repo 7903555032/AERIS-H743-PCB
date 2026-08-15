@@ -1604,7 +1604,7 @@
 				(justify left)
 			)
 		)
-		(pin "USB_FS_DM" bidirectional
+		(pin "USB_DM" bidirectional
 			(at 25.4 63.5 180)
 			(uuid "066c9d79-9f2e-4997-8311-2fe51614d93c")
 			(effects
@@ -1614,7 +1614,7 @@
 				(justify left)
 			)
 		)
-		(pin "USB_FS_DP" bidirectional
+		(pin "USB_DP" bidirectional
 			(at 25.4 53.34 180)
 			(uuid "6f8985aa-163f-4fcb-ba95-b3ba09ba94ab")
 			(effects
@@ -1700,7 +1700,7 @@
 				(justify right)
 			)
 		)
-		(pin "IMU_CS" input
+		(pin "SPI1_NSS" input
 			(at 60.96 121.92 0)
 			(uuid "4c1392ff-bbb2-4872-af02-d35054761596")
 			(effects
@@ -1720,7 +1720,7 @@
 				(justify right)
 			)
 		)
-		(pin "IMU_MISO" output
+		(pin "SPI1_MISO" output
 			(at 60.96 137.16 0)
 			(uuid "0c62892b-90a8-44d4-a479-dff53adf5b4c")
 			(effects
@@ -1730,7 +1730,7 @@
 				(justify right)
 			)
 		)
-		(pin "IMU_MOSI" input
+		(pin "SPI1_MOSI" input
 			(at 60.96 132.08 0)
 			(uuid "5d24f575-bf49-4737-b4d5-f0ab04f4e780")
 			(effects
@@ -1740,7 +1740,7 @@
 				(justify right)
 			)
 		)
-		(pin "IMU_SCK" input
+		(pin "SPI1_SCK" input
 			(at 60.96 127 0)
 			(uuid "e0bed437-b5bc-4a28-8491-75aa494147e3")
 			(effects

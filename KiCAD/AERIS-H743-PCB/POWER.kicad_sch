@@ -6488,7 +6488,7 @@
 		)
 		(uuid "08ff156e-2065-4172-9401-0f4a91d99fdb")
 	)
-	(hierarchical_label "USB_FS_DP"
+	(hierarchical_label "USB_DP"
 		(shape bidirectional)
 		(at 238.76 124.46 0)
 		(effects
@@ -6565,7 +6565,7 @@
 		)
 		(uuid "77afe33c-e2e3-4a66-95a2-be2c225f49ed")
 	)
-	(hierarchical_label "USB_FS_DM"
+	(hierarchical_label "USB_DM"
 		(shape bidirectional)
 		(at 245.11 137.16 0)
 		(effects

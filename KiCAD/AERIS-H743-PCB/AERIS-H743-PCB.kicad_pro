@@ -588,6 +588,162 @@
       {
         "netclass": "USB_Diff",
         "pattern": "USB_DM"
+      },
+      {
+        "netclass": "Power_Battery",
+        "pattern": "+BATT"
+      },
+      {
+        "netclass": "Power_Battery",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Power_Reg",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Power_Reg",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "Power_Reg",
+        "pattern": "+3V3_SENSOR"
+      },
+      {
+        "netclass": "USB_Diff",
+        "pattern": "USP_DP"
+      },
+      {
+        "netclass": "HighSpeed_SE",
+        "pattern": "QSPI_CLK"
+      },
+      {
+        "netclass": "HighSpeed_SE",
+        "pattern": "QSPI_IO0"
+      },
+      {
+        "netclass": "HighSpeed_SE",
+        "pattern": "QSPI_IO1"
+      },
+      {
+        "netclass": "HighSpeed_SE",
+        "pattern": "QSPI_IO2"
+      },
+      {
+        "netclass": "HighSpeed_SE",
+        "pattern": "QSPI_IO3"
+      },
+      {
+        "netclass": "HighSpeed_SE",
+        "pattern": "SDMMC_CK"
+      },
+      {
+        "netclass": "HighSpeed_SE",
+        "pattern": "SDMMC_CMD"
+      },
+      {
+        "netclass": "HighSpeed_SE",
+        "pattern": "SDMMC_D0"
+      },
+      {
+        "netclass": "HighSpeed_SE",
+        "pattern": "SDMMC_D1"
+      },
+      {
+        "netclass": "HighSpeed_SE",
+        "pattern": "SDMMC_D2"
+      },
+      {
+        "netclass": "HighSpeed_SE",
+        "pattern": "SDMMC_D3"
+      },
+      {
+        "netclass": "CAN_Diff",
+        "pattern": "CANH"
+      },
+      {
+        "netclass": "CAN_Diff",
+        "pattern": "CANL"
+      },
+      {
+        "netclass": "Signal_Default",
+        "pattern": "I2C1_SCL"
+      },
+      {
+        "netclass": "Signal_Default",
+        "pattern": "I2C1_SDA"
+      },
+      {
+        "netclass": "Signal_Default",
+        "pattern": "GPS_TX"
+      },
+      {
+        "netclass": "Signal_Default",
+        "pattern": "GPS_RX"
+      },
+      {
+        "netclass": "Signal_Default",
+        "pattern": "RS485_TX"
+      },
+      {
+        "netclass": "Signal_Default",
+        "pattern": "RS485_RX"
+      },
+      {
+        "netclass": "Signal_Default",
+        "pattern": "ESC1_PWM"
+      },
+      {
+        "netclass": "Signal_Default",
+        "pattern": "ESC2_PWM"
+      },
+      {
+        "netclass": "Signal_Default",
+        "pattern": "ESC3_PWM"
+      },
+      {
+        "netclass": "Signal_Default",
+        "pattern": "ESC4_PWM"
+      },
+      {
+        "netclass": "Signal_Default",
+        "pattern": "RS485_DE"
+      },
+      {
+        "netclass": "Signal_Default",
+        "pattern": "USER_BTN"
+      },
+      {
+        "netclass": "Signal_Default",
+        "pattern": "Status_LED"
+      },
+      {
+        "netclass": "Signal_Default",
+        "pattern": "RGB_R"
+      },
+      {
+        "netclass": "Signal_Default",
+        "pattern": "RGB_B"
+      },
+      {
+        "netclass": "Signal_Default",
+        "pattern": "RGB_G"
+      },
+      {
+        "netclass": "Signal_Default",
+        "pattern": "SWDIO"
+      },
+      {
+        "netclass": "Signal_Default",
+        "pattern": "SWCLK"
+      },
+      {
+        "netclass": "Signal_Default",
+        "pattern": "NRST"
+      },
+      {
+        "netclass": "Signal_Default",
+        "pattern": "SWO"
       }
     ]
   },

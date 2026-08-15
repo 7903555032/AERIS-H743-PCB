@@ -1,4 +1,5 @@
 (fp_lib_table
 	(version 7)
 	(lib (name "Footprints") (type "KiCad") (uri "C:/Projects/PCB_Design/KiCad_Projects/AERIS-F411/Libraries/Footprints.pretty") (options "") (descr ""))
+	(lib (name "Library") (type "KiCad") (uri "C:/Projects/PCB_Design/KiCad_Projects/AERIS-H743/Libraries/Footprints.pretty/Library.pretty") (options "") (descr ""))
 )
