@@ -5178,6 +5178,12 @@
 		(uuid "9d8a1bdd-2e61-4d67-b643-aec50c7121ed")
 	)
 	(junction
+		(at 86.36 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7cba11d-5154-4cea-bec8-c58ae083114f")
+	)
+	(junction
 		(at 115.57 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5693,6 +5699,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 133.35) (xy 91.44 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62385720-fca9-44ee-952a-d73e1ba8be25")
+	)
+	(wire
+		(pts
 			(xy 45.72 153.67) (xy 48.26 153.67)
 		)
 		(stroke
@@ -5863,6 +5879,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 128.27) (xy 86.36 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a30210f-5a98-4dad-ba1c-b96802401be3")
+	)
+	(wire
+		(pts
 			(xy 134.62 55.88) (xy 115.57 55.88)
 		)
 		(stroke
@@ -5953,7 +5979,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 50.8) (xy 201.93 50.8)
+			(xy 199.39 50.8) (xy 204.47 50.8)
 		)
 		(stroke
 			(width 0)
@@ -6495,17 +6521,6 @@
 		)
 		(uuid "1c71268d-cb78-449e-8395-bb10bcc91256")
 	)
-	(hierarchical_label "VIN"
-		(shape output)
-		(at 91.44 133.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "35b9d77b-9ae9-4133-9287-7db68c110cb2")
-	)
 	(hierarchical_label "+3V3"
 		(shape output)
 		(at 69.85 121.92 0)
@@ -6561,6 +6576,17 @@
 		)
 		(uuid "a1f230e4-4ebd-48ff-b3e4-f59588d57757")
 	)
+	(hierarchical_label "+3V3_SENSOR"
+		(shape output)
+		(at 204.47 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "acec6eb3-5377-40dd-aeee-2d6496f999a1")
+	)
 	(hierarchical_label "I2C1_SDA"
 		(shape bidirectional)
 		(at 166.37 50.8 0)
@@ -6582,17 +6608,6 @@
 			(justify right)
 		)
 		(uuid "d4d4417b-0c8c-4f3d-b2e3-d6a3585ecdcf")
-	)
-	(hierarchical_label "U10_VCC"
-		(shape output)
-		(at 201.93 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dcce92e8-ff35-4431-b856-f777240a188b")
 	)
 	(hierarchical_label "+3V3_SENSOR"
 		(shape output)

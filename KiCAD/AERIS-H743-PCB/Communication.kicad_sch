@@ -1580,6 +1580,12 @@
 		(uuid "63a11b63-2b0b-4eab-890b-d3bc93c0ad6f")
 	)
 	(junction
+		(at 107.95 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a6c9279-60ab-4ebc-aab2-dedb37206d17")
+	)
+	(junction
 		(at 93.98 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1590,12 +1596,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92a92a9f-32cf-451a-affa-6768a29c7e59")
-	)
-	(junction
-		(at 107.95 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "963bf88d-c883-4a2f-bf1e-324fd8ea8adf")
 	)
 	(junction
 		(at 109.22 97.79)
@@ -1807,7 +1807,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 97.79) (xy 107.95 99.06)
+			(xy 107.95 97.79) (xy 107.95 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2205,6 +2205,46 @@
 		)
 		(uuid "fd5bdd46-4258-4f00-9472-3ee8ebfcafcf")
 	)
+	(label "B"
+		(at 220.98 99.06 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "14b5d346-071b-4b30-b82b-e06646fe8c18")
+	)
+	(label "CANL"
+		(at 107.95 100.33 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8ffc36d8-abe1-4ddd-b642-c6c1919fbbc5")
+	)
+	(label "CANH"
+		(at 109.22 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1f337b1-52de-46ed-a8bc-c0b87b9e0a4c")
+	)
+	(label "A"
+		(at 220.98 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da5295fd-990d-40e0-9604-b60860a89ab5")
+	)
 	(hierarchical_label "+3V3"
 		(shape input)
 		(at 204.47 81.28 90)
@@ -2226,17 +2266,6 @@
 			(justify right)
 		)
 		(uuid "0b46bc03-bb4b-4a38-b7e1-532cd52012bd")
-	)
-	(hierarchical_label "B"
-		(shape bidirectional)
-		(at 220.98 99.06 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "18e7f898-b48d-4674-b9ab-3c3fab3d0065")
 	)
 	(hierarchical_label "+3V3"
 		(shape input)
@@ -2282,28 +2311,6 @@
 		)
 		(uuid "3938fc03-6729-4421-a5c7-fd866b1e9071")
 	)
-	(hierarchical_label "CANH"
-		(shape bidirectional)
-		(at 109.22 92.71 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3caf81e7-4d4f-4b91-80f7-aa99b2cd9f14")
-	)
-	(hierarchical_label "CANL"
-		(shape bidirectional)
-		(at 107.95 99.06 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5c109b7c-b85c-4905-a0fc-95d530907bdd")
-	)
 	(hierarchical_label "FDCAN1_RX"
 		(shape output)
 		(at 78.74 95.25 180)
@@ -2347,17 +2354,6 @@
 			(justify left)
 		)
 		(uuid "b55b0d8c-eede-4d9a-86d1-081815b1ba17")
-	)
-	(hierarchical_label "A"
-		(shape bidirectional)
-		(at 220.98 91.44 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cddf9e59-0a1c-4bf3-a006-8c5e5c92786b")
 	)
 	(hierarchical_label "RS485_TX"
 		(shape input)
