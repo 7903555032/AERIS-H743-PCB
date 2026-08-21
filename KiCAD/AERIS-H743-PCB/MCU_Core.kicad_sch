@@ -4379,10 +4379,16 @@
 		(uuid "481e4ff7-9aa4-42db-8221-82c45770d8e0")
 	)
 	(junction
-		(at 48.26 67.31)
+		(at 229.87 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4a16f453-0fa2-4a83-bc05-0a311c3e3fb3")
+		(uuid "52ea77ea-90ae-440a-bf68-7c92a733934f")
+	)
+	(junction
+		(at 66.04 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53fc6202-eb3d-4677-8b39-0b178126a3d0")
 	)
 	(junction
 		(at 80.01 87.63)
@@ -4419,12 +4425,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83633ce6-febb-4c87-8d94-a2d077acc0f3")
-	)
-	(junction
-		(at 219.71 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "945004b7-8953-40ae-9cae-eaf9a1f678f3")
 	)
 	(junction
 		(at 59.69 92.71)
@@ -5006,6 +5006,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 62.23) (xy 229.87 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ec3b1bc-55cb-4c30-9d0a-9dacd6525668")
+	)
+	(wire
+		(pts
 			(xy 72.39 87.63) (xy 80.01 87.63)
 		)
 		(stroke
@@ -5256,7 +5266,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 67.31) (xy 48.26 67.31)
+			(xy 29.21 67.31) (xy 66.04 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5383,6 +5393,16 @@
 			(type default)
 		)
 		(uuid "790876e0-45d3-4d96-ba6d-6c304e791992")
+	)
+	(wire
+		(pts
+			(xy 247.65 40.64) (xy 250.19 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a3d6d62-205e-4c6d-a280-7ddf5faa5e7c")
 	)
 	(wire
 		(pts
@@ -5536,6 +5556,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 67.31) (xy 68.58 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bc43573-bb01-4755-b3d3-2af80e385418")
+	)
+	(wire
+		(pts
 			(xy 132.08 189.23) (xy 132.08 190.5)
 		)
 		(stroke
@@ -5613,16 +5643,6 @@
 			(type default)
 		)
 		(uuid "a1bd9a55-7e31-49a6-bb79-94115a05fee4")
-	)
-	(wire
-		(pts
-			(xy 229.87 53.34) (xy 219.71 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1c4d31c-c02b-44e6-9d53-def02cc04b3b")
 	)
 	(wire
 		(pts
@@ -5906,16 +5926,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 67.31) (xy 68.58 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccfa44a6-bf3f-4aee-8e5c-d15598e670c8")
-	)
-	(wire
-		(pts
 			(xy 153.67 193.04) (xy 161.29 193.04)
 		)
 		(stroke
@@ -6096,7 +6106,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 53.34) (xy 80.01 53.34)
+			(xy 80.01 53.34) (xy 229.87 53.34)
 		)
 		(stroke
 			(width 0)
@@ -6216,7 +6226,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 53.34) (xy 229.87 92.71)
+			(xy 229.87 53.34) (xy 229.87 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7432,7 +7442,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 250.19 40.64 270)
+		(at 247.65 40.64 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7443,7 +7453,7 @@
 		(fields_autoplaced yes)
 		(uuid "438ed867-04cc-417a-9e6f-932c69d5139f")
 		(property "Reference" "#PWR028"
-			(at 243.84 40.64 0)
+			(at 241.3 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7454,7 +7464,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 246.38 40.6399 90)
+			(at 243.84 40.6399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7465,7 +7475,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 40.64 0)
+			(at 247.65 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7476,7 +7486,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 40.64 0)
+			(at 247.65 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7487,7 +7497,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 250.19 40.64 0)
+			(at 247.65 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9298,6 +9308,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 66.04 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae869517-7983-4120-a1db-6688969c1e83")
+		(property "Reference" "#FLG04"
+			(at 66.04 65.405 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 66.04 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 66.04 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51592480-ae35-45c7-9c44-0c6d8ed5eb89")
+		)
+		(instances
+			(project "AERIS-H743-PCB"
+				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/baf5a174-d476-465e-a73b-c952391d3950"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 62.23 162.56 0)
 		(unit 1)
@@ -9472,6 +9560,85 @@
 			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/baf5a174-d476-465e-a73b-c952391d3950"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 229.87 62.23 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb6c4c57-b789-48ac-be10-d3f68e32a785")
+		(property "Reference" "#FLG06"
+			(at 231.775 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 233.68 62.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 229.87 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c58d673c-4bda-45fb-ad6d-b1779eefc21d")
+		)
+		(instances
+			(project "AERIS-H743-PCB"
+				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/baf5a174-d476-465e-a73b-c952391d3950"
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -9868,84 +10035,6 @@
 			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/baf5a174-d476-465e-a73b-c952391d3950"
 					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 219.71 53.34 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d8852651-3832-4bdd-9f62-9a6fd7fa88c4")
-		(property "Reference" "#FLG06"
-			(at 219.71 55.245 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 219.71 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 219.71 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3cb7b367-a0e6-4053-b3b5-4e568bce6ccb")
-		)
-		(instances
-			(project "AERIS-H743-PCB"
-				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/baf5a174-d476-465e-a73b-c952391d3950"
-					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -10484,84 +10573,6 @@
 			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/baf5a174-d476-465e-a73b-c952391d3950"
 					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 48.26 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eec42f81-373a-4efe-a051-0539ad57b52f")
-		(property "Reference" "#FLG04"
-			(at 48.26 65.405 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 48.26 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 48.26 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "532c2070-adba-4117-9fe9-3a1353302bd7")
-		)
-		(instances
-			(project "AERIS-H743-PCB"
-				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/baf5a174-d476-465e-a73b-c952391d3950"
-					(reference "#FLG04")
 					(unit 1)
 				)
 			)

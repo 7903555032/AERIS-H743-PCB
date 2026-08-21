@@ -2531,7 +2531,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TPS563201DDCR:TPS563201DDCR"
+		(symbol "TPS563201DDCR_1"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2540,27 +2540,29 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U1"
-				(at 0 15.24 0)
+			(property "Reference" "U"
+				(at -10.16 12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
 			(property "Value" "TPS563201DDCR"
-				(at 0 12.7 0)
+				(at -10.16 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Library:SOT95P280X110-6N"
+			(property "Footprint" "TPS563201DDCR:SOT95P280X110-6N"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2739,17 +2741,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Purpose" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TPS563201DDCR_0_0"
+			(symbol "TPS563201DDCR_1_0_0"
 				(rectangle
 					(start -10.16 -10.16)
 					(end 10.16 10.16)
@@ -3173,7 +3165,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "USBLC6-2SC6:USBLC6-2SC6"
+		(symbol "USBLC6-2SC6_1"
 			(pin_names
 				(offset 1.016)
 			)
@@ -3182,27 +3174,29 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U2"
-				(at 0 20.32 0)
+			(property "Reference" "U"
+				(at -15.2693 17.8093 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Value" "USBLC6-2SC6"
-				(at 0 17.78 0)
+				(at -15.2559 -17.7959 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "Library:SOT95P280X145-6N"
+			(property "Footprint" "USBLC6-2SC6:SOT95P280X145-6N"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3381,17 +3375,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Purpose" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "USBLC6-2SC6_0_0"
+			(symbol "USBLC6-2SC6_1_0_0"
 				(polyline
 					(pts
 						(xy -15.24 12.7) (xy 0 12.7)
@@ -4237,6 +4221,24 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 				(pin bidirectional line
 					(at 20.32 12.7 180)
 					(length 5.08)
@@ -4256,26 +4258,6 @@
 					)
 				)
 			)
-			(symbol "USBLC6-2SC6_1_0"
-				(pin power_in line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
 			(embedded_fonts no)
 		)
 		(symbol "XT30PW-M:XT30PW-M"
@@ -4287,27 +4269,29 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J1"
-				(at -3.81 7.62 0)
+			(property "Reference" "J"
+				(at -7.62 3.302 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Value" "XT30PW-M"
-				(at -3.81 5.08 0)
+				(at -7.62 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Library:XT30PW-M"
+			(property "Footprint" "XT30PW-M:AMASS_XT30PW-M"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4486,16 +4470,6 @@
 					(justify bottom)
 				)
 			)
-			(property "Purpose" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(symbol "XT30PW-M_0_0"
 				(polyline
 					(pts
@@ -4627,7 +4601,7 @@
 						(type none)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 5.08 -2.54 180)
 					(length 5.08)
 					(name "N"
@@ -4645,7 +4619,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 5.08 0 180)
 					(length 5.08)
 					(name "P"
@@ -4916,6 +4890,12 @@
 		(uuid "5488b33d-4cf6-4178-8101-9f48042c3f7a")
 	)
 	(junction
+		(at 250.19 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "554057be-7e3f-49b1-aa13-21534a1c4b7a")
+	)
+	(junction
 		(at 134.62 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4940,10 +4920,22 @@
 		(uuid "87f22102-ade2-4a71-ba07-b483951149c2")
 	)
 	(junction
+		(at 80.01 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cb7ab8b-5552-4382-b5e5-3ef5bc3a033a")
+	)
+	(junction
 		(at 46.99 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9274f467-d866-4ac1-a89c-7392e9478a60")
+	)
+	(junction
+		(at 55.88 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "933145c4-527c-4db2-8c29-cd3fc1089872")
 	)
 	(junction
 		(at 172.72 101.6)
@@ -4970,12 +4962,6 @@
 		(uuid "ae305441-ed5c-4be7-805f-1b01ad440fba")
 	)
 	(junction
-		(at 124.46 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aee1586a-d499-4a0c-a792-27f9d2f4a871")
-	)
-	(junction
 		(at 129.54 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4986,6 +4972,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd04190f-6264-4750-af65-bd110c2e7f2f")
+	)
+	(junction
+		(at 55.88 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf5271fe-7364-4991-a404-cbb3721a0d96")
 	)
 	(junction
 		(at 78.74 82.55)
@@ -5012,12 +5004,6 @@
 		(uuid "d29ca679-816d-4867-b5e4-36eec89f0b41")
 	)
 	(junction
-		(at 231.14 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8278f0c-d697-48c8-ab2b-140e196c05d6")
-	)
-	(junction
 		(at 45.72 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5028,6 +5014,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2d3d6ef-8be8-45d5-843c-dadff7057893")
+	)
+	(junction
+		(at 185.42 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f778f487-f772-452b-b1d9-c8be8fe3f625")
+	)
+	(junction
+		(at 55.88 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcbd5c4e-3f22-45e6-bd39-b62f913636a0")
+	)
+	(junction
+		(at 76.2 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd3f4ebb-7ab3-4ca8-a8cc-23a3d5cc067f")
 	)
 	(no_connect
 		(at 163.83 58.42)
@@ -5113,6 +5117,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 171.45) (xy 66.04 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08752100-6d23-42e0-80ef-b81fa7bdf756")
+	)
+	(wire
+		(pts
 			(xy 129.54 128.27) (xy 134.62 128.27)
 		)
 		(stroke
@@ -5130,6 +5144,16 @@
 			(type default)
 		)
 		(uuid "0deef6e9-2b5a-4c5e-95f2-8af64b88b2bd")
+	)
+	(wire
+		(pts
+			(xy 55.88 133.35) (xy 55.88 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e2fcab6-4c02-49bc-bf46-e9a5807bcf7f")
 	)
 	(wire
 		(pts
@@ -5153,6 +5177,26 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 137.16) (xy 250.19 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c78445-ccb9-482d-933b-8167cb7c14cd")
+	)
+	(wire
+		(pts
+			(xy 55.88 180.34) (xy 31.75 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "189fea01-4c0f-41ae-ac40-a44fcb293e65")
+	)
+	(wire
+		(pts
 			(xy 69.85 121.92) (xy 66.04 121.92)
 		)
 		(stroke
@@ -5173,16 +5217,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 96.52) (xy 78.74 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a4c5485-12b7-467d-8fed-a318656bd53d")
-	)
-	(wire
-		(pts
 			(xy 129.54 133.35) (xy 129.54 135.89)
 		)
 		(stroke
@@ -5193,33 +5227,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 99.06) (xy 76.2 99.06)
+			(xy 185.42 137.16) (xy 186.69 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d508b37-d41f-4bbd-92eb-e84e36c9d628")
-	)
-	(wire
-		(pts
-			(xy 179.07 101.6) (xy 179.07 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d590052-8ea0-4053-a3a3-0c130b58929f")
-	)
-	(wire
-		(pts
-			(xy 181.61 149.86) (xy 186.69 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f7d57c8-a5e5-47eb-8d92-7da02b695cc8")
+		(uuid "20f0cb56-f5b4-40fd-962b-7e1775e92249")
 	)
 	(wire
 		(pts
@@ -5230,16 +5244,6 @@
 			(type default)
 		)
 		(uuid "22e77c7d-ad51-44f9-acaa-7974e93f5e2d")
-	)
-	(wire
-		(pts
-			(xy 182.88 137.16) (xy 182.88 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24c9b459-7ec5-4b37-96c9-20ae91fde975")
 	)
 	(wire
 		(pts
@@ -5273,23 +5277,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 99.06) (xy 76.2 111.76)
+			(xy 255.27 156.21) (xy 185.42 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29cb27ba-3548-4e4a-a784-52e6a4d1d3ef")
-	)
-	(wire
-		(pts
-			(xy 227.33 137.16) (xy 231.14 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a3a66d4-91be-45f1-9b89-c59d9f8921b2")
+		(uuid "2a5cf995-3ecd-4527-bb90-c6861a493324")
 	)
 	(wire
 		(pts
@@ -5323,13 +5317,13 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 166.37) (xy 45.72 167.64)
+			(xy 184.15 137.16) (xy 185.42 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "33513e15-f2fa-49aa-8a56-cbf752c2e77f")
+		(uuid "32604261-d46b-4c66-a466-18ccdd047498")
 	)
 	(wire
 		(pts
@@ -5340,6 +5334,16 @@
 			(type default)
 		)
 		(uuid "3555b88e-ac2c-4247-b23c-6cb54130f041")
+	)
+	(wire
+		(pts
+			(xy 255.27 146.05) (xy 255.27 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35c914d1-11c0-42ca-be2e-ecc758161ec2")
 	)
 	(wire
 		(pts
@@ -5363,13 +5367,13 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 137.16) (xy 231.14 140.97)
+			(xy 250.19 137.16) (xy 255.27 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40a79ab2-c899-4a0e-8ebf-ca05107e6ac6")
+		(uuid "4199b7c3-41dc-40ec-9aa6-8c3554750ed6")
 	)
 	(wire
 		(pts
@@ -5413,16 +5417,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 137.16) (xy 186.69 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d6518e5-083c-4668-97de-e8432bc1f607")
-	)
-	(wire
-		(pts
 			(xy 168.91 100.33) (xy 172.72 100.33)
 		)
 		(stroke
@@ -5430,6 +5424,16 @@
 			(type default)
 		)
 		(uuid "5270f6a1-ed02-448c-b4b8-8b88ba53fe18")
+	)
+	(wire
+		(pts
+			(xy 55.88 135.89) (xy 55.88 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59cd51fb-5c70-4b3c-8599-43bca4f91b80")
 	)
 	(wire
 		(pts
@@ -5483,6 +5487,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 104.14) (xy 76.2 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69a7ba59-3dd9-4722-adea-7ba3b1b03f28")
+	)
+	(wire
+		(pts
 			(xy 80.01 90.17) (xy 80.01 101.6)
 		)
 		(stroke
@@ -5520,6 +5534,16 @@
 			(type default)
 		)
 		(uuid "6f15e4e8-2aaa-4d97-b82b-34db13a15c7e")
+	)
+	(wire
+		(pts
+			(xy 76.2 111.76) (xy 80.01 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "721bad39-3eec-486b-9231-e59e11930122")
 	)
 	(wire
 		(pts
@@ -5603,7 +5627,17 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 163.83) (xy 55.88 167.64)
+			(xy 45.72 130.81) (xy 45.72 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b6eeec3-25c2-423c-8146-9b0a7c4fd247")
+	)
+	(wire
+		(pts
+			(xy 55.88 163.83) (xy 55.88 171.45)
 		)
 		(stroke
 			(width 0)
@@ -5640,6 +5674,16 @@
 			(type default)
 		)
 		(uuid "866c65f2-0c79-477b-94ed-b1b1e482275f")
+	)
+	(wire
+		(pts
+			(xy 45.72 171.45) (xy 55.88 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8794d1c0-d2c5-4924-9f58-9743701d6628")
 	)
 	(wire
 		(pts
@@ -5723,6 +5767,36 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 99.06) (xy 76.2 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "957f24ee-ad4d-411c-9f43-2013daf9bf41")
+	)
+	(wire
+		(pts
+			(xy 55.88 133.35) (xy 66.04 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ad3558f-244f-4e41-8570-58ec29ce1807")
+	)
+	(wire
+		(pts
+			(xy 45.72 133.35) (xy 55.88 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bc93f18-ad27-4573-b4b6-9c21649fbcc4")
+	)
+	(wire
+		(pts
 			(xy 113.03 106.68) (xy 113.03 101.6)
 		)
 		(stroke
@@ -5740,6 +5814,26 @@
 			(type default)
 		)
 		(uuid "9e8c17bc-5aa0-4395-89ce-66b9102d5548")
+	)
+	(wire
+		(pts
+			(xy 45.72 166.37) (xy 45.72 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ec1ba9e-69e1-4b22-893e-aad409d56515")
+	)
+	(wire
+		(pts
+			(xy 55.88 171.45) (xy 55.88 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eee7e0e-0bb9-49bd-a9ba-f1d94623a839")
 	)
 	(wire
 		(pts
@@ -5803,6 +5897,36 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 149.86) (xy 186.69 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6712145-7fca-4fe1-bde2-8f26d16a32fb")
+	)
+	(wire
+		(pts
+			(xy 68.58 96.52) (xy 78.74 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a87cd765-cc97-4486-b530-d8aed8ff7c9b")
+	)
+	(wire
+		(pts
+			(xy 76.2 99.06) (xy 76.2 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9492dc5-a3f9-440d-add6-a2b33fd492b1")
+	)
+	(wire
+		(pts
 			(xy 146.05 148.59) (xy 144.78 148.59)
 		)
 		(stroke
@@ -5833,16 +5957,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 137.16) (xy 234.95 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b506dc1a-54b9-48f7-a1d3-a919dc489c15")
-	)
-	(wire
-		(pts
 			(xy 172.72 100.33) (xy 172.72 101.6)
 		)
 		(stroke
@@ -5850,6 +5964,26 @@
 			(type default)
 		)
 		(uuid "b777b4bc-ef06-4e7b-bf57-f398aeec85f5")
+	)
+	(wire
+		(pts
+			(xy 227.33 149.86) (xy 231.14 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9957a71-5778-45af-99b0-aadc64fbe3e5")
+	)
+	(wire
+		(pts
+			(xy 31.75 135.89) (xy 31.75 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9f11231-223c-4480-b4ff-370ddc1b5d11")
 	)
 	(wire
 		(pts
@@ -5863,16 +5997,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 130.81) (xy 45.72 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb32ecf1-c126-43cf-82c9-eecdd4a3552b")
-	)
-	(wire
-		(pts
 			(xy 177.8 106.68) (xy 172.72 106.68)
 		)
 		(stroke
@@ -5883,6 +6007,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 114.3) (xy 80.01 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfd297f0-503a-4bdf-93c8-45ca32a917b7")
+	)
+	(wire
+		(pts
 			(xy 167.64 45.72) (xy 167.64 44.45)
 		)
 		(stroke
@@ -5890,6 +6024,16 @@
 			(type default)
 		)
 		(uuid "c241318e-24e5-4907-b466-2da76b6385ae")
+	)
+	(wire
+		(pts
+			(xy 179.07 101.6) (xy 179.07 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4c8b944-3454-4793-b57e-331135cd3898")
 	)
 	(wire
 		(pts
@@ -5920,6 +6064,16 @@
 			(type default)
 		)
 		(uuid "c9cb4d4b-862c-44c3-85f4-bb32cb55a4eb")
+	)
+	(wire
+		(pts
+			(xy 31.75 135.89) (xy 55.88 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca6b3c26-1512-4ae0-af11-b4501185e846")
 	)
 	(wire
 		(pts
@@ -5960,6 +6114,16 @@
 			(type default)
 		)
 		(uuid "d03e6662-9349-411c-ada6-6732f603f07b")
+	)
+	(wire
+		(pts
+			(xy 250.19 137.16) (xy 250.19 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d26dc441-81ed-4fc3-9bda-436c65bc68d9")
 	)
 	(wire
 		(pts
@@ -6043,6 +6207,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 156.21) (xy 185.42 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3e6aab5-4a4b-4caa-96be-1fab8d2b41e4")
+	)
+	(wire
+		(pts
 			(xy 66.04 123.19) (xy 66.04 121.92)
 		)
 		(stroke
@@ -6093,7 +6267,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 166.37) (xy 66.04 167.64)
+			(xy 66.04 166.37) (xy 66.04 171.45)
 		)
 		(stroke
 			(width 0)
@@ -6103,7 +6277,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 137.16) (xy 242.57 137.16)
+			(xy 242.57 149.86) (xy 238.76 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6120,6 +6294,16 @@
 			(type default)
 		)
 		(uuid "f11c1f48-57fb-4d5d-8970-fdfd50500b63")
+	)
+	(wire
+		(pts
+			(xy 250.19 146.05) (xy 255.27 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9c621c6-b0f9-40c3-9bd3-e23a54086959")
 	)
 	(wire
 		(pts
@@ -6140,16 +6324,6 @@
 			(type default)
 		)
 		(uuid "fad77b19-0e18-4e1f-b6f8-f73896a9c440")
-	)
-	(wire
-		(pts
-			(xy 227.33 149.86) (xy 234.95 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe782198-f171-4d18-86a6-d367d4dcb7d6")
 	)
 	(wire
 		(pts
@@ -6251,7 +6425,7 @@
 	)
 	(hierarchical_label "USB_DM"
 		(shape bidirectional)
-		(at 245.11 137.16 0)
+		(at 242.57 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6284,6 +6458,17 @@
 	)
 	(hierarchical_label "+5V"
 		(shape output)
+		(at 255.27 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b10866cb-74f7-4744-93f9-44693fd1e8da")
+	)
+	(hierarchical_label "+5V"
+		(shape output)
 		(at 41.91 153.67 180)
 		(effects
 			(font
@@ -6303,84 +6488,6 @@
 			(justify left)
 		)
 		(uuid "ed8e26a6-3aaf-4ad9-9f48-e76a7adf0b67")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 66.04 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "016b455e-e1e3-4099-9323-b5cd4aa7b4ce")
-		(property "Reference" "#PWR056"
-			(at 66.04 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.04 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "81a4cc1d-eeae-4bfd-9a2f-0fd71b0e22ef")
-		)
-		(instances
-			(project "AERIS-H743-PCB"
-				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -6889,7 +6996,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 238.76 137.16 90)
+		(at 234.95 149.86 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6900,7 +7007,7 @@
 		(fields_autoplaced yes)
 		(uuid "17d7fe38-167a-420c-8089-c40dcfc9ace9")
 		(property "Reference" "R4"
-			(at 238.76 130.81 90)
+			(at 234.95 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6910,7 +7017,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 238.76 133.35 90)
+			(at 234.95 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6920,7 +7027,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 238.76 138.938 90)
+			(at 234.95 151.638 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6931,7 +7038,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 137.16 0)
+			(at 234.95 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6942,7 +7049,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 238.76 137.16 0)
+			(at 234.95 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6953,7 +7060,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 238.76 137.16 0)
+			(at 234.95 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6972,84 +7079,6 @@
 			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 76.2 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18f71b24-e478-4a8d-94b7-bb136f4d6221")
-		(property "Reference" "#PWR017"
-			(at 76.2 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 76.2 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4f0b05e1-6188-4de9-8d85-d8130dbdf886")
-		)
-		(instances
-			(project "AERIS-H743-PCB"
-				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7576,8 +7605,257 @@
 		)
 	)
 	(symbol
+		(lib_name "USBLC6-2SC6_1")
+		(lib_id "USBLC6-2SC6:USBLC6-2SC6")
+		(at 207.01 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3daca3e0-9f47-41c1-b099-b5b809318212")
+		(property "Reference" "U2"
+			(at 207.01 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USBLC6-2SC6"
+			(at 207.01 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:SOT95P280X145-6N"
+			(at 207.01 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "17V Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6"
+			(at 207.01 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "STMicroelectronics"
+			(at 207.01 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/USBLC6-2SC6/?ref=eda"
+			(at 207.01 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PACKAGE" "SOT-23-6 STMicroelectronics"
+			(at 207.01 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PRICE" "None"
+			(at 207.01 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SOT-23-6 STMicroelectronics"
+			(at 207.01 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/USBLC6-2SC6/STMicroelectronics/view-part/?ref=eda"
+			(at 207.01 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 207.01 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/USBLC6-2SC6/STMicroelectronics/view-part/?ref=snap"
+			(at 207.01 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "USBLC6-2SC6"
+			(at 207.01 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=231887&manufacturer=STMicroelectronics&part_name=USBLC6-2SC6&search_term=usblc6-2sc6 esd protection"
+			(at 207.01 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 207.01 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "AVAILABILITY" "In Stock"
+			(at 207.01 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purpose" ""
+			(at 207.01 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "dc4bd0a6-3fe8-4b75-8c3e-57a7a966bd26")
+		)
+		(pin "4"
+			(uuid "a1ac7362-1a8e-4b6c-8caf-7628c3976603")
+		)
+		(pin "1"
+			(uuid "32f8781e-3f81-4181-971e-ee14bf3b5ecf")
+		)
+		(pin "2"
+			(uuid "ce60e0ed-061b-4602-bab4-2583400c35b8")
+		)
+		(pin "5"
+			(uuid "5adf2d7a-f6ee-4c31-a172-59f5a130659d")
+		)
+		(pin "3"
+			(uuid "b5fed5f5-a435-4d58-ab10-c5cfb0189c7b")
+		)
+		(instances
+			(project "AERIS-H743-PCB"
+				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 55.88 133.35 0)
+		(at 55.88 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7588,7 +7866,7 @@
 		(fields_autoplaced yes)
 		(uuid "40bb2e72-5cd8-4cd2-8c30-7c6e807a2d0e")
 		(property "Reference" "#PWR01"
-			(at 55.88 139.7 0)
+			(at 55.88 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7599,7 +7877,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 138.43 0)
+			(at 55.88 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7609,7 +7887,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 133.35 0)
+			(at 55.88 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7620,7 +7898,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 133.35 0)
+			(at 55.88 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7631,7 +7909,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 133.35 0)
+			(at 55.88 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8028,254 +8306,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TPS563201DDCR:TPS563201DDCR")
-		(at 106.68 135.89 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4977c1b2-4173-4736-b5e3-eb3f1c8a5a09")
-		(property "Reference" "U1"
-			(at 106.68 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS563201DDCR"
-			(at 106.68 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:SOT95P280X110-6N"
-			(at 106.68 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4.5 V to 17 V input, 3 A output, synchronous step-down converter in Eco-mode"
-			(at 106.68 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 106.68 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.10mm"
-			(at 106.68 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "SOT-23-THN-6 Texas Instruments"
-			(at 106.68 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 106.68 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TPS563201DDCR/Texas+Instruments/view-part/?ref=eda"
-			(at 106.68 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 106.68 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "December 2015"
-			(at 106.68 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS563201DDCR/Texas+Instruments/view-part/?ref=snap"
-			(at 106.68 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "TPS563201DDCR"
-			(at 106.68 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1236927&manufacturer=Texas Instruments&part_name=TPS563201DDCR&search_term=tps563201 buck converter"
-			(at 106.68 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 106.68 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Texas Instruments"
-			(at 106.68 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Purpose" ""
-			(at 106.68 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dd7b7ae1-976b-4dcd-9b4c-37c3e897a5c9")
-		)
-		(pin "6"
-			(uuid "4e21e1e8-39c9-43ba-8b98-c77e4f924978")
-		)
-		(pin "4"
-			(uuid "d118538e-ae12-4a89-b4c5-145f23b9e526")
-		)
-		(pin "5"
-			(uuid "b16c31b8-809c-4569-b169-85c63bb27f3a")
-		)
-		(pin "3"
-			(uuid "670e6b8d-448e-4de1-8acc-7b6166276b26")
-		)
-		(pin "2"
-			(uuid "4399de14-104d-40fd-87f7-e2a479f485f6")
-		)
-		(instances
-			(project "AERIS-H743-PCB"
-				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 167.64 44.45 90)
 		(unit 1)
@@ -8445,398 +8475,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 55.88 167.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d7d5842-f461-4b1a-bef3-95ef63f54452")
-		(property "Reference" "#PWR08"
-			(at 55.88 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 55.88 172.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d167ab66-8226-41eb-bc9f-ad5f3f905288")
-		)
-		(instances
-			(project "AERIS-H743-PCB"
-				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "XT30PW-M:XT30PW-M")
-		(at 68.58 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f5588d4-4238-4dbf-93e0-ff1ff207c043")
-		(property "Reference" "J1"
-			(at 64.77 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XT30PW-M"
-			(at 64.77 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:XT30PW-M"
-			(at 68.58 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; Colour: yellow"
-			(at 68.58 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "AMASS"
-			(at 68.58 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "5 mm"
-			(at 68.58 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "None"
-			(at 68.58 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 68.58 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/XT30PW-M/AMASS/view-part/?ref=eda"
-			(at 68.58 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 68.58 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "1.2"
-			(at 68.58 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30PW-M/AMASS/view-part/?ref=snap"
-			(at 68.58 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "XT30PW-M"
-			(at 68.58 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Amass"
-			(at 68.58 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 68.58 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SNAPEDA_PN" "XT30PW-M"
-			(at 68.58 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Purpose" ""
-			(at 68.58 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "N"
-			(uuid "d04135e6-080c-40e9-95a0-6385f5c037f5")
-		)
-		(pin "P"
-			(uuid "3cb25d89-a466-4c8c-9bf3-01bc9345a9c6")
-		)
-		(instances
-			(project "AERIS-H743-PCB"
-				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 179.07 140.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64a76e34-74f6-44b6-8215-a0d2cdafade7")
-		(property "Reference" "#PWR063"
-			(at 179.07 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 179.07 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "44cb472c-4f17-4136-90b1-5902f72e5927")
-		)
-		(instances
-			(project "AERIS-H743-PCB"
-				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 153.67 102.87 0)
 		(unit 1)
@@ -8973,7 +8611,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 181.61 149.86 270)
+		(at 184.15 137.16 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8981,10 +8619,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6d4c471b-5804-49e6-92a1-8f670bbbb8f4")
 		(property "Reference" "#PWR011"
-			(at 175.26 149.86 0)
+			(at 177.8 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8995,7 +8632,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 149.8599 90)
+			(at 184.15 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9006,7 +8643,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 149.86 0)
+			(at 184.15 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9017,7 +8654,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 149.86 0)
+			(at 184.15 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9028,7 +8665,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 149.86 0)
+			(at 184.15 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9140,84 +8777,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 45.72 134.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72ff49f2-508c-4045-acb9-63b6daaea20b")
-		(property "Reference" "#PWR057"
-			(at 45.72 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 45.72 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "838a420d-0aab-427d-b3a5-80d9c7cdaa94")
-		)
-		(instances
-			(project "AERIS-H743-PCB"
-				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Fuse")
 		(at 95.25 97.79 90)
 		(unit 1)
@@ -9308,7 +8867,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 111.76 0)
+		(at 80.01 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9319,7 +8878,7 @@
 		(fields_autoplaced yes)
 		(uuid "79b43fbb-dde9-4ba0-be20-b00a39fe0292")
 		(property "Reference" "#PWR014"
-			(at 80.01 118.11 0)
+			(at 80.01 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9330,7 +8889,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 116.84 0)
+			(at 80.01 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9340,7 +8899,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 111.76 0)
+			(at 80.01 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9351,7 +8910,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 111.76 0)
+			(at 80.01 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9362,7 +8921,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 111.76 0)
+			(at 80.01 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9379,85 +8938,6 @@
 			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 234.95 149.86 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80416edd-d4be-4241-8e5b-006de3ccf858")
-		(property "Reference" "#PWR010"
-			(at 241.3 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 238.76 149.8599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "783f0297-271b-4add-b67b-4a93fc01716a")
-		)
-		(instances
-			(project "AERIS-H743-PCB"
-				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -9707,6 +9187,98 @@
 			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 250.19 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8db7808f-6480-4695-9e47-574b3cac0e5c")
+		(property "Reference" "C34"
+			(at 254 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 254 143.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 251.1552 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 250.19 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" ""
+			(at 250.19 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "50c4cc07-e16a-416b-9868-5d9bc4d8a8d9")
+		)
+		(pin "2"
+			(uuid "fde48cd4-068e-4a3b-b0f2-b8d2c2f72a9d")
+		)
+		(instances
+			(project "AERIS-H743-PCB"
+				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -10107,84 +9679,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 182.88 140.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9fc6ec4c-1c37-4a03-8c9e-9593a30015df")
-		(property "Reference" "#PWR060"
-			(at 182.88 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 182.88 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "010a3118-5dc3-4262-8aec-c354971c95da")
-		)
-		(instances
-			(project "AERIS-H743-PCB"
-				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
-					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 184.15 100.33 90)
 		(unit 1)
@@ -10439,6 +9933,85 @@
 			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 76.2 104.14 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4c181bf-1a22-4e3a-a950-ecd2c90481a5")
+		(property "Reference" "#FLG02"
+			(at 74.295 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 72.39 104.1399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 76.2 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a469c4ad-c957-4a4a-9afa-edda25932524")
+		)
+		(instances
+			(project "AERIS-H743-PCB"
+				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -10877,6 +10450,242 @@
 		)
 	)
 	(symbol
+		(lib_id "XT30PW-M:XT30PW-M")
+		(at 63.5 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce86983a-4115-4d45-9bac-a09f18c14715")
+		(property "Reference" "J1"
+			(at 59.69 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT30PW-M"
+			(at 59.69 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:XT30PW-M"
+			(at 63.5 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; Colour: yellow"
+			(at 63.5 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "AMASS"
+			(at 63.5 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5 mm"
+			(at 63.5 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 63.5 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 63.5 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/XT30PW-M/AMASS/view-part/?ref=eda"
+			(at 63.5 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 63.5 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "1.2"
+			(at 63.5 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30PW-M/AMASS/view-part/?ref=snap"
+			(at 63.5 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "XT30PW-M"
+			(at 63.5 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Amass"
+			(at 63.5 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 63.5 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SNAPEDA_PN" "XT30PW-M"
+			(at 63.5 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purpose" ""
+			(at 63.5 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "N"
+			(uuid "741912a4-8b98-4370-8f59-596d6d8987d1")
+		)
+		(pin "P"
+			(uuid "ac6ed609-8a87-4a57-b768-c9255bcdf3b5")
+		)
+		(instances
+			(project "AERIS-H743-PCB"
+				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 78.74 82.55 0)
 		(unit 1)
@@ -10949,332 +10758,6 @@
 			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 124.46 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d51c7026-bf7a-43e3-ae3f-e5e49b3441cd")
-		(property "Reference" "#FLG02"
-			(at 124.46 141.605 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 124.46 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 124.46 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6302ef33-372d-4360-9ab9-da32acc4cd8c")
-		)
-		(instances
-			(project "AERIS-H743-PCB"
-				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "USBLC6-2SC6:USBLC6-2SC6")
-		(at 207.01 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6f5eebd-6988-4b66-9b02-9be87c4ad003")
-		(property "Reference" "U2"
-			(at 207.01 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USBLC6-2SC6"
-			(at 207.01 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:SOT95P280X145-6N"
-			(at 207.01 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "17V Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6"
-			(at 207.01 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "STMicroelectronics"
-			(at 207.01 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/USBLC6-2SC6/?ref=eda"
-			(at 207.01 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PACKAGE" "SOT-23-6 STMicroelectronics"
-			(at 207.01 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PRICE" "None"
-			(at 207.01 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "SOT-23-6 STMicroelectronics"
-			(at 207.01 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/USBLC6-2SC6/STMicroelectronics/view-part/?ref=eda"
-			(at 207.01 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 207.01 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/USBLC6-2SC6/STMicroelectronics/view-part/?ref=snap"
-			(at 207.01 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "USBLC6-2SC6"
-			(at 207.01 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=231887&manufacturer=STMicroelectronics&part_name=USBLC6-2SC6&search_term=usblc6-2sc6 esd protection"
-			(at 207.01 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 207.01 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "AVAILABILITY" "In Stock"
-			(at 207.01 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Purpose" ""
-			(at 207.01 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "278cc799-758e-4bc4-b816-723fc32f8f5c")
-		)
-		(pin "5"
-			(uuid "026a1863-1218-44f0-96ce-63b9447e2e63")
-		)
-		(pin "2"
-			(uuid "347b4261-7885-4425-bfcc-a7a422a285f9")
-		)
-		(pin "6"
-			(uuid "3a93fa0d-c847-487f-997d-5650d32dd21e")
-		)
-		(pin "1"
-			(uuid "f661065f-6072-4670-ba89-3baed5fedaa6")
-		)
-		(pin "3"
-			(uuid "0a21a892-0927-42b3-8e70-e70cebd052fb")
-		)
-		(instances
-			(project "AERIS-H743-PCB"
-				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -11365,84 +10848,6 @@
 			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
 					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 66.04 167.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc5ad9f0-3318-4f7c-9528-ed523b12de6e")
-		(property "Reference" "#PWR059"
-			(at 66.04 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.04 172.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fedce4d3-1af4-40b8-b745-b502e7754564")
-		)
-		(instances
-			(project "AERIS-H743-PCB"
-				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
-					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -11788,8 +11193,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 45.72 167.64 0)
+		(lib_name "TPS563201DDCR_1")
+		(lib_id "TPS563201DDCR:TPS563201DDCR")
+		(at 106.68 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11798,10 +11204,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f03e1a58-1db5-4e46-865c-e86dce1eb537")
-		(property "Reference" "#PWR058"
-			(at 45.72 173.99 0)
-			(hide yes)
+		(uuid "f2c1220f-c889-4c82-ae8a-c01c492c310e")
+		(property "Reference" "U1"
+			(at 106.68 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11810,8 +11215,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 45.72 172.72 0)
+		(property "Value" "TPS563201DDCR"
+			(at 106.68 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11820,8 +11225,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 45.72 167.64 0)
+		(property "Footprint" "Library:SOT95P280X110-6N"
+			(at 106.68 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11829,10 +11234,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 167.64 0)
+			(at 106.68 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11842,9 +11248,164 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 167.64 0)
+		(property "Description" "4.5 V to 17 V input, 3 A output, synchronous step-down converter in Eco-mode"
+			(at 106.68 135.89 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 106.68 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.10mm"
+			(at 106.68 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SOT-23-THN-6 Texas Instruments"
+			(at 106.68 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 106.68 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TPS563201DDCR/Texas+Instruments/view-part/?ref=eda"
+			(at 106.68 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 106.68 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "December 2015"
+			(at 106.68 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS563201DDCR/Texas+Instruments/view-part/?ref=snap"
+			(at 106.68 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "TPS563201DDCR"
+			(at 106.68 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1236927&manufacturer=Texas Instruments&part_name=TPS563201DDCR&search_term=tps563201 buck converter"
+			(at 106.68 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 106.68 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 106.68 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purpose" ""
+			(at 106.68 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11854,90 +11415,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "944839ce-17f1-4048-ada9-ba0645fb071c")
+			(uuid "427bbc2f-80f8-4220-96a9-beb96e91c4d6")
+		)
+		(pin "2"
+			(uuid "a365e983-859e-4a41-9a8c-2d903450b6b8")
+		)
+		(pin "4"
+			(uuid "560418b4-0e89-4e24-9173-11d98fb3a104")
+		)
+		(pin "6"
+			(uuid "e07692e9-f5ca-4c40-b8d6-af607dd54356")
+		)
+		(pin "3"
+			(uuid "aff7abd1-fb90-4eed-8de7-d732750dddaa")
+		)
+		(pin "5"
+			(uuid "080df9fd-4882-4f60-882c-f7069ae4f3fb")
 		)
 		(instances
 			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
-					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 231.14 140.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9b4ad1c-19b3-4e99-9ea0-2032fc3afc04")
-		(property "Reference" "#PWR061"
-			(at 231.14 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 231.14 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "35d72d72-41f2-415d-8cc8-e078dd878c26")
-		)
-		(instances
-			(project "AERIS-H743-PCB"
-				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/0e6091cd-36a8-495e-bc03-729bcaf76ce2"
-					(reference "#PWR061")
+					(reference "U1")
 					(unit 1)
 				)
 			)

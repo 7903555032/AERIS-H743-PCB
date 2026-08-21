@@ -883,7 +883,7 @@
         "uuid": "41f25c5f-e761-4f33-a9f5-6d8db67ffdd9"
       }
     ],
-    "used_designators": "#FLG2,J8,R26,Y3,#PWR54-63",
+    "used_designators": "#FLG2,#FLG4,#FLG6,U1-2,C34",
     "variants": []
   },
   "sheets": [

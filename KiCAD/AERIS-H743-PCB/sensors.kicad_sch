@@ -1841,6 +1841,10 @@
 		(uuid "2456d6fd-9fe5-4ca5-99cd-479ea5c01170")
 	)
 	(no_connect
+		(at 105.41 123.19)
+		(uuid "342c5071-816d-494e-aee7-a1962357a9ff")
+	)
+	(no_connect
 		(at 171.45 88.9)
 		(uuid "4a53a19b-e809-43a9-96be-71e4e860edbb")
 	)
@@ -1851,6 +1855,10 @@
 	(no_connect
 		(at 190.5 135.89)
 		(uuid "6fbbfb39-f564-4044-82b8-4de557612048")
+	)
+	(no_connect
+		(at 120.65 81.28)
+		(uuid "89d74e0a-9691-4976-9cb6-07596e0c3c90")
 	)
 	(no_connect
 		(at 215.9 125.73)
@@ -2140,16 +2148,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 123.19) (xy 113.03 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e7230ad-e1a7-4317-8ad5-353c703e3ab6")
-	)
-	(wire
-		(pts
 			(xy 87.63 115.57) (xy 87.63 111.76)
 		)
 		(stroke
@@ -2367,16 +2365,6 @@
 			(type default)
 		)
 		(uuid "cbe41577-703c-45b1-adfd-11551e7621e5")
-	)
-	(wire
-		(pts
-			(xy 114.3 81.28) (xy 120.65 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d27999de-b567-4276-aa79-a4f7056f1fd4")
 	)
 	(wire
 		(pts
@@ -2718,85 +2706,6 @@
 			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/323ebd1b-1767-457a-bcd0-67981f52dd8e"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 113.03 123.19 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0feaec9c-4344-4350-87df-7959de224386")
-		(property "Reference" "#PWR035"
-			(at 119.38 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 116.84 123.1899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eba391ed-4da4-4565-83ff-6d4f1fbe77e1")
-		)
-		(instances
-			(project "AERIS-H743-PCB"
-				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/323ebd1b-1767-457a-bcd0-67981f52dd8e"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -3973,85 +3882,6 @@
 			(project "AERIS-H743-PCB"
 				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/323ebd1b-1767-457a-bcd0-67981f52dd8e"
 					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 114.3 81.28 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ea8726f-adcc-4f5d-a4f5-6fc565ff5b06")
-		(property "Reference" "#PWR033"
-			(at 107.95 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 110.49 81.2799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "75c9a006-eaa6-42d0-9dba-1b60dc0bf661")
-		)
-		(instances
-			(project "AERIS-H743-PCB"
-				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9/323ebd1b-1767-457a-bcd0-67981f52dd8e"
-					(reference "#PWR033")
 					(unit 1)
 				)
 			)
