@@ -7684,7 +7684,7 @@
 				(justify bottom)
 			)
 		)
-		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/USBLC6-2SC6/?ref=eda"
+		(property "Purchase-URL" "https://pricing.snapeda.com/search/part/USBLC6-2SC6/?ref=eda"
 			(at 207.01 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -7696,7 +7696,7 @@
 				(justify bottom)
 			)
 		)
-		(property "PACKAGE" "SOT-23-6 STMicroelectronics"
+		(property "Package" "SOT-23-6 STMicroelectronics"
 			(at 207.01 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -7708,7 +7708,7 @@
 				(justify bottom)
 			)
 		)
-		(property "PRICE" "None"
+		(property "Price" "None"
 			(at 207.01 137.16 0)
 			(hide yes)
 			(show_name no)
