@@ -611,7 +611,7 @@
       },
       {
         "netclass": "USB_Diff",
-        "pattern": "USP_DP"
+        "pattern": "USB_DP"
       },
       {
         "netclass": "HighSpeed_SE",
